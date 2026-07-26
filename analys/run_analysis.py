@@ -95,10 +95,15 @@ def run() -> dict:
 
         # 3) Komposition + kil -----------------------------------------------
         mark_by = {r: _val(lr.table, r) for r in ("forsiktig", "generos")}
-        comp = composition.compute(C.TAX, C.OVERVINST_KONCESSION, mark_by, C.WEDGE)
+        comp = composition.compute(C.TAX, C.OVERVINST_KONCESSION, mark_by, C.WEDGE,
+                                   C.UTTAGSANDEL)
         results["composition"] = comp
-        _rule("3) Kompositionstabell (intäktsneutralt, steg ett) -- % av BNP")
+        _rule(f"3) Kompositionstabell (intäktsneutralt, steg ett, "
+              f"uttagsandel {C.UTTAGSANDEL:.0%}) -- % av BNP")
         print(comp.table.round(1).to_string())
+        pot = "  ".join(f"{r.capitalize()} {v:.1f}" for r, v in comp.mark_potential.items())
+        print(f"\nMarkräntans potential vid fullt uttag: {pot} % av BNP "
+              f"(steg ett tar ut {C.UTTAGSANDEL:.0%}).")
         _rule("   Marginalskattekil")
         print("Utbudskil arbete (inkl. moms):")
         print(f"  Nu: {100*comp.wedge_now:.0f} %")

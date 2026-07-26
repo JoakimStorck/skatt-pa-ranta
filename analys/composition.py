@@ -5,6 +5,12 @@ konstant (summan av dagens poster). Konsumtion och kapital/bolag ligger
 kvar; markbasen växer enligt läsningen och övervinst/koncession sätts
 till en fast liten post. Arbetsskatten är restposten.
 
+Av markräntan tas andelen `uttagsandel` ut i reformens steg ett
+(alternativ C, se config.UTTAGSANDEL). Skatten läggs på markens
+avkastningsvärde, inte på löpande marknadspris, så uttaget blir en andel
+av räntan och basen urholkas inte av sin egen kapitalisering. Den fulla
+räntan redovisas som potential för senare steg.
+
 Marginalskattekilen räknas ur lagstadgade satser. Reformkolumnerna
 sänker arbetsskattens komponenter (arbetsgivaravgift, kommunal och
 statlig marginalskatt) i proportion till den andel av arbetsskatten som
@@ -26,6 +32,9 @@ class CompositionResult:
     wedge_reform: dict           # läsning -> utbudskil efter reform
     wedge_now_subst: float       # substitutionsmarginal i utgångsläget (exkl. moms)
     wedge_reform_subst: dict     # läsning -> substitutionsmarginal efter reform
+    uttagsandel: float = 1.0     # andel av markräntan som tas ut i steg ett
+    mark_potential: dict = None  # läsning -> full markränta, % av BNP
+    mark_uttag: dict = None      # läsning -> faktiskt uttag, % av BNP
 
 
 def _wedge(t_k: float, t_s: float, t_c: float, a: float) -> float:
@@ -35,7 +44,8 @@ def _wedge(t_k: float, t_s: float, t_c: float, a: float) -> float:
 
 
 def compute(tax: dict, overvinst_koncession: float,
-            mark_by_reading: dict, wedge_rates: dict) -> CompositionResult:
+            mark_by_reading: dict, wedge_rates: dict,
+            uttagsandel: float = 1.0) -> CompositionResult:
     kons = tax["konsumtion"]
     kap = tax["kapital_bolag"]
     arbete_nu = tax["arbete"]
@@ -51,16 +61,19 @@ def compute(tax: dict, overvinst_koncession: float,
             "Övervinst+koncession": 0.0,
         }
     }
-    arbete, freed = {}, {}
+    arbete, freed, mark_potential, mark_uttag = {}, {}, {}, {}
     for reading, mark in mark_by_reading.items():
-        a = total - kons - kap - mark - overvinst_koncession
+        uttag = mark * uttagsandel
+        mark_potential[reading] = mark
+        mark_uttag[reading] = uttag
+        a = total - kons - kap - uttag - overvinst_koncession
         arbete[reading] = a
         freed[reading] = arbete_nu - a
         columns[reading.capitalize()] = {
             "Arbete": a,
             "Konsumtion": kons,
             "Kapital och bolag": kap,
-            "Mark/läge/natur": mark,
+            "Mark/läge/natur": uttag,
             "Övervinst+koncession": overvinst_koncession,
         }
 
@@ -82,4 +95,5 @@ def compute(tax: dict, overvinst_koncession: float,
         wedge_reform_subst[reading] = _wedge(tk * f, ts * f, 0.0, ar * f)
 
     return CompositionResult(table, arbete, freed, wedge_now, wedge_reform,
-                             wedge_now_subst, wedge_reform_subst)
+                             wedge_now_subst, wedge_reform_subst,
+                             uttagsandel, mark_potential, mark_uttag)

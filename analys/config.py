@@ -61,6 +61,13 @@ WEDGE = {
 R_OVERVINST = (0.04, 0.05, 0.06)   # avkastningskrav för residualräntan
 R_MARK = 0.04                      # avkastningskrav för kapitalisering av markränta
 
+# Uttagsandel: hur stor del av den beräknade markräntan som faktiskt tas ut i
+# reformens steg ett (alternativ C). Skatten läggs på markens avkastningsvärde,
+# inte på löpande marknadspris, så uttaget blir en andel av räntan och basen
+# urholkas inte av sin egen kapitalisering. 1.0 = fullt uttag (steg tvås
+# potential); 0.5 = hälften, vilket är den siffersatta versionen.
+UTTAGSANDEL = 0.5
+
 # Markandel av bebyggd fastighet -- den enda kvarvarande antagandeparametern
 # på markbasen sedan markförmögenheten hämtats ur fastighetstaxeringen.
 MARKANDEL = {"forsiktig": 0.35, "central": 0.45, "generos": 0.55}
