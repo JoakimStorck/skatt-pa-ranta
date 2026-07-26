@@ -1,0 +1,909 @@
+sektor,transaktionspost,kvartal,"Inkomster och utgifter samt kapitaltransaktioner (ENS2010), löpande priser, mnkr"
+S11 Icke-finansiella bolag,P1.REC Produktion ,2024K1,..
+S11 Icke-finansiella bolag,P1.REC Produktion ,2024K2,..
+S11 Icke-finansiella bolag,P1.REC Produktion ,2024K3,..
+S11 Icke-finansiella bolag,P1.REC Produktion ,2024K4,..
+S11 Icke-finansiella bolag,D21X31.REC Produktskatter (kalkylerade) minus produktsubventioner ,2024K1,..
+S11 Icke-finansiella bolag,D21X31.REC Produktskatter (kalkylerade) minus produktsubventioner ,2024K2,..
+S11 Icke-finansiella bolag,D21X31.REC Produktskatter (kalkylerade) minus produktsubventioner ,2024K3,..
+S11 Icke-finansiella bolag,D21X31.REC Produktskatter (kalkylerade) minus produktsubventioner ,2024K4,..
+S11 Icke-finansiella bolag,D21est.REC Produktskatter (kalkylerade) ,2024K1,..
+S11 Icke-finansiella bolag,D21est.REC Produktskatter (kalkylerade) ,2024K2,..
+S11 Icke-finansiella bolag,D21est.REC Produktskatter (kalkylerade) ,2024K3,..
+S11 Icke-finansiella bolag,D21est.REC Produktskatter (kalkylerade) ,2024K4,..
+S11 Icke-finansiella bolag,"D31tot.PAY Produktsubventioner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D31tot.PAY Produktsubventioner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D31tot.PAY Produktsubventioner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D31tot.PAY Produktsubventioner, användning",2024K4,..
+S11 Icke-finansiella bolag,P7.REC Import av varor och tjänster,2024K1,..
+S11 Icke-finansiella bolag,P7.REC Import av varor och tjänster,2024K2,..
+S11 Icke-finansiella bolag,P7.REC Import av varor och tjänster,2024K3,..
+S11 Icke-finansiella bolag,P7.REC Import av varor och tjänster,2024K4,..
+S11 Icke-finansiella bolag,P71.REC Import av varor,2024K1,..
+S11 Icke-finansiella bolag,P71.REC Import av varor,2024K2,..
+S11 Icke-finansiella bolag,P71.REC Import av varor,2024K3,..
+S11 Icke-finansiella bolag,P71.REC Import av varor,2024K4,..
+S11 Icke-finansiella bolag,P72.REC Import av tjänster,2024K1,..
+S11 Icke-finansiella bolag,P72.REC Import av tjänster,2024K2,..
+S11 Icke-finansiella bolag,P72.REC Import av tjänster,2024K3,..
+S11 Icke-finansiella bolag,P72.REC Import av tjänster,2024K4,..
+S11 Icke-finansiella bolag,P72F.REC Import av FISIM-tjänster,2024K1,..
+S11 Icke-finansiella bolag,P72F.REC Import av FISIM-tjänster,2024K2,..
+S11 Icke-finansiella bolag,P72F.REC Import av FISIM-tjänster,2024K3,..
+S11 Icke-finansiella bolag,P72F.REC Import av FISIM-tjänster,2024K4,..
+S11 Icke-finansiella bolag,P2.PAY Insatsförbrukning ,2024K1,..
+S11 Icke-finansiella bolag,P2.PAY Insatsförbrukning ,2024K2,..
+S11 Icke-finansiella bolag,P2.PAY Insatsförbrukning ,2024K3,..
+S11 Icke-finansiella bolag,P2.PAY Insatsförbrukning ,2024K4,..
+S11 Icke-finansiella bolag,P3.PAY Konsumtionsutgift ,2024K1,..
+S11 Icke-finansiella bolag,P3.PAY Konsumtionsutgift ,2024K2,..
+S11 Icke-finansiella bolag,P3.PAY Konsumtionsutgift ,2024K3,..
+S11 Icke-finansiella bolag,P3.PAY Konsumtionsutgift ,2024K4,..
+S11 Icke-finansiella bolag,P5g.PAY Bruttoinvestering,2024K1,266378
+S11 Icke-finansiella bolag,P5g.PAY Bruttoinvestering,2024K2,246580
+S11 Icke-finansiella bolag,P5g.PAY Bruttoinvestering,2024K3,242275
+S11 Icke-finansiella bolag,P5g.PAY Bruttoinvestering,2024K4,277316
+S11 Icke-finansiella bolag,P6.PAY Export av varor och tjänster,2024K1,..
+S11 Icke-finansiella bolag,P6.PAY Export av varor och tjänster,2024K2,..
+S11 Icke-finansiella bolag,P6.PAY Export av varor och tjänster,2024K3,..
+S11 Icke-finansiella bolag,P6.PAY Export av varor och tjänster,2024K4,..
+S11 Icke-finansiella bolag,P61.PAY Export av varor ,2024K1,..
+S11 Icke-finansiella bolag,P61.PAY Export av varor ,2024K2,..
+S11 Icke-finansiella bolag,P61.PAY Export av varor ,2024K3,..
+S11 Icke-finansiella bolag,P61.PAY Export av varor ,2024K4,..
+S11 Icke-finansiella bolag,P62.PAY Export av tjänster,2024K1,..
+S11 Icke-finansiella bolag,P62.PAY Export av tjänster,2024K2,..
+S11 Icke-finansiella bolag,P62.PAY Export av tjänster,2024K3,..
+S11 Icke-finansiella bolag,P62.PAY Export av tjänster,2024K4,..
+S11 Icke-finansiella bolag,P62F.PAY Export av FISIM tjänster,2024K1,..
+S11 Icke-finansiella bolag,P62F.PAY Export av FISIM tjänster,2024K2,..
+S11 Icke-finansiella bolag,P62F.PAY Export av FISIM tjänster,2024K3,..
+S11 Icke-finansiella bolag,P62F.PAY Export av FISIM tjänster,2024K4,..
+S11 Icke-finansiella bolag,B11 Utrikessaldo för varor och tjänster,2024K1,..
+S11 Icke-finansiella bolag,B11 Utrikessaldo för varor och tjänster,2024K2,..
+S11 Icke-finansiella bolag,B11 Utrikessaldo för varor och tjänster,2024K3,..
+S11 Icke-finansiella bolag,B11 Utrikessaldo för varor och tjänster,2024K4,..
+S11 Icke-finansiella bolag,P1M.REC Marknadsproduktion och produktion för egen slutlig användning,2024K1,..
+S11 Icke-finansiella bolag,P1M.REC Marknadsproduktion och produktion för egen slutlig användning,2024K2,..
+S11 Icke-finansiella bolag,P1M.REC Marknadsproduktion och produktion för egen slutlig användning,2024K3,..
+S11 Icke-finansiella bolag,P1M.REC Marknadsproduktion och produktion för egen slutlig användning,2024K4,..
+S11 Icke-finansiella bolag,"P1O.REC Marknadsprod., prod. för egen slutlig anv. och betalningar för övrig icke-marknadsprod.",2024K1,..
+S11 Icke-finansiella bolag,"P1O.REC Marknadsprod., prod. för egen slutlig anv. och betalningar för övrig icke-marknadsprod.",2024K2,..
+S11 Icke-finansiella bolag,"P1O.REC Marknadsprod., prod. för egen slutlig anv. och betalningar för övrig icke-marknadsprod.",2024K3,..
+S11 Icke-finansiella bolag,"P1O.REC Marknadsprod., prod. för egen slutlig anv. och betalningar för övrig icke-marknadsprod.",2024K4,..
+S11 Icke-finansiella bolag,"P51c.PAY Kapitalförslitning, användning ",2024K1,193981
+S11 Icke-finansiella bolag,"P51c.PAY Kapitalförslitning, användning ",2024K2,199531
+S11 Icke-finansiella bolag,"P51c.PAY Kapitalförslitning, användning ",2024K3,200737
+S11 Icke-finansiella bolag,"P51c.PAY Kapitalförslitning, användning ",2024K4,202691
+S11 Icke-finansiella bolag,"B1nb Nettonationalprodukt (NNP) till baspris/Förädlingsvärde, netto till baspris",2024K1,742802
+S11 Icke-finansiella bolag,"B1nb Nettonationalprodukt (NNP) till baspris/Förädlingsvärde, netto till baspris",2024K2,795750
+S11 Icke-finansiella bolag,"B1nb Nettonationalprodukt (NNP) till baspris/Förädlingsvärde, netto till baspris",2024K3,722478
+S11 Icke-finansiella bolag,"B1nb Nettonationalprodukt (NNP) till baspris/Förädlingsvärde, netto till baspris",2024K4,834039
+S11 Icke-finansiella bolag,B1nm Nettonationalprodukt (NNP) till marknadspris ,2024K1,..
+S11 Icke-finansiella bolag,B1nm Nettonationalprodukt (NNP) till marknadspris ,2024K2,..
+S11 Icke-finansiella bolag,B1nm Nettonationalprodukt (NNP) till marknadspris ,2024K3,..
+S11 Icke-finansiella bolag,B1nm Nettonationalprodukt (NNP) till marknadspris ,2024K4,..
+S11 Icke-finansiella bolag,"B1gb Bruttonationalprodukt (BNP) till baspris/Förädlingsvärde, brutto till baspris",2024K1,936783
+S11 Icke-finansiella bolag,"B1gb Bruttonationalprodukt (BNP) till baspris/Förädlingsvärde, brutto till baspris",2024K2,995281
+S11 Icke-finansiella bolag,"B1gb Bruttonationalprodukt (BNP) till baspris/Förädlingsvärde, brutto till baspris",2024K3,923215
+S11 Icke-finansiella bolag,"B1gb Bruttonationalprodukt (BNP) till baspris/Förädlingsvärde, brutto till baspris",2024K4,1036730
+S11 Icke-finansiella bolag,"B1gm BNP, Bruttonationalprodukt till marknadspris",2024K1,..
+S11 Icke-finansiella bolag,"B1gm BNP, Bruttonationalprodukt till marknadspris",2024K2,..
+S11 Icke-finansiella bolag,"B1gm BNP, Bruttonationalprodukt till marknadspris",2024K3,..
+S11 Icke-finansiella bolag,"B1gm BNP, Bruttonationalprodukt till marknadspris",2024K4,..
+S11 Icke-finansiella bolag,"IN1.REC Primära inkomster, tillgång",2024K1,160815
+S11 Icke-finansiella bolag,"IN1.REC Primära inkomster, tillgång",2024K2,385611
+S11 Icke-finansiella bolag,"IN1.REC Primära inkomster, tillgång",2024K3,311550
+S11 Icke-finansiella bolag,"IN1.REC Primära inkomster, tillgång",2024K4,318770
+S11 Icke-finansiella bolag,"IN1.PAY Primära inkomster, användning",2024K1,793414
+S11 Icke-finansiella bolag,"IN1.PAY Primära inkomster, användning",2024K2,1147880
+S11 Icke-finansiella bolag,"IN1.PAY Primära inkomster, användning",2024K3,941155
+S11 Icke-finansiella bolag,"IN1.PAY Primära inkomster, användning",2024K4,956552
+S11 Icke-finansiella bolag,"B5g BNI, Bruttonationalinkomst / primärinkomstsaldo, brutto",2024K1,304184
+S11 Icke-finansiella bolag,"B5g BNI, Bruttonationalinkomst / primärinkomstsaldo, brutto",2024K2,233012
+S11 Icke-finansiella bolag,"B5g BNI, Bruttonationalinkomst / primärinkomstsaldo, brutto",2024K3,293610
+S11 Icke-finansiella bolag,"B5g BNI, Bruttonationalinkomst / primärinkomstsaldo, brutto",2024K4,398948
+S11 Icke-finansiella bolag,D29-D39.PAY Övriga produktionsskatter minus övriga produktionssubventioner ,2024K1,84689
+S11 Icke-finansiella bolag,D29-D39.PAY Övriga produktionsskatter minus övriga produktionssubventioner ,2024K2,94658
+S11 Icke-finansiella bolag,D29-D39.PAY Övriga produktionsskatter minus övriga produktionssubventioner ,2024K3,92773
+S11 Icke-finansiella bolag,D29-D39.PAY Övriga produktionsskatter minus övriga produktionssubventioner ,2024K4,84974
+S11 Icke-finansiella bolag,B1nf Nettonationalprodukt (NNP) till faktorpris ,2024K1,658113
+S11 Icke-finansiella bolag,B1nf Nettonationalprodukt (NNP) till faktorpris ,2024K2,701092
+S11 Icke-finansiella bolag,B1nf Nettonationalprodukt (NNP) till faktorpris ,2024K3,629705
+S11 Icke-finansiella bolag,B1nf Nettonationalprodukt (NNP) till faktorpris ,2024K4,749065
+S11 Icke-finansiella bolag,"D3.REC Subventioner, tillgång",2024K1,13460
+S11 Icke-finansiella bolag,"D3.REC Subventioner, tillgång",2024K2,10706
+S11 Icke-finansiella bolag,"D3.REC Subventioner, tillgång",2024K3,10299
+S11 Icke-finansiella bolag,"D3.REC Subventioner, tillgång",2024K4,16484
+S11 Icke-finansiella bolag,"D31.REC Produktsubventioner, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D31.REC Produktsubventioner, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D31.REC Produktsubventioner, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D31.REC Produktsubventioner, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D39.REC Övriga produktionssubventioner, tillgång",2024K1,13460
+S11 Icke-finansiella bolag,"D39.REC Övriga produktionssubventioner, tillgång",2024K2,10706
+S11 Icke-finansiella bolag,"D39.REC Övriga produktionssubventioner, tillgång",2024K3,10299
+S11 Icke-finansiella bolag,"D39.REC Övriga produktionssubventioner, tillgång",2024K4,16484
+S11 Icke-finansiella bolag,"D1.PAY Ersättningar till anställda, användning ",2024K1,500644
+S11 Icke-finansiella bolag,"D1.PAY Ersättningar till anställda, användning ",2024K2,533673
+S11 Icke-finansiella bolag,"D1.PAY Ersättningar till anställda, användning ",2024K3,526771
+S11 Icke-finansiella bolag,"D1.PAY Ersättningar till anställda, användning ",2024K4,517498
+S11 Icke-finansiella bolag,"D11.PAY Egentlig lön, användning",2024K1,414487
+S11 Icke-finansiella bolag,"D11.PAY Egentlig lön, användning",2024K2,443190
+S11 Icke-finansiella bolag,"D11.PAY Egentlig lön, användning",2024K3,434445
+S11 Icke-finansiella bolag,"D11.PAY Egentlig lön, användning",2024K4,428122
+S11 Icke-finansiella bolag,"D12.PAY Arbetsgivares sociala avgifter, användning",2024K1,86157
+S11 Icke-finansiella bolag,"D12.PAY Arbetsgivares sociala avgifter, användning",2024K2,90483
+S11 Icke-finansiella bolag,"D12.PAY Arbetsgivares sociala avgifter, användning",2024K3,92326
+S11 Icke-finansiella bolag,"D12.PAY Arbetsgivares sociala avgifter, användning",2024K4,89376
+S11 Icke-finansiella bolag,"D2XD3.PAY Skatter på produktion och import  minus subventioner, användning",2024K1,84689
+S11 Icke-finansiella bolag,"D2XD3.PAY Skatter på produktion och import  minus subventioner, användning",2024K2,94658
+S11 Icke-finansiella bolag,"D2XD3.PAY Skatter på produktion och import  minus subventioner, användning",2024K3,92773
+S11 Icke-finansiella bolag,"D2XD3.PAY Skatter på produktion och import  minus subventioner, användning",2024K4,84974
+S11 Icke-finansiella bolag,"D2.PAY Skatter på produktion och import, användning",2024K1,98149
+S11 Icke-finansiella bolag,"D2.PAY Skatter på produktion och import, användning",2024K2,105364
+S11 Icke-finansiella bolag,"D2.PAY Skatter på produktion och import, användning",2024K3,103072
+S11 Icke-finansiella bolag,"D2.PAY Skatter på produktion och import, användning",2024K4,101458
+S11 Icke-finansiella bolag,"D21rec.PAY Produktskatter (influtna), användning",2024K1,..
+S11 Icke-finansiella bolag,"D21rec.PAY Produktskatter (influtna), användning",2024K2,..
+S11 Icke-finansiella bolag,"D21rec.PAY Produktskatter (influtna), användning",2024K3,..
+S11 Icke-finansiella bolag,"D21rec.PAY Produktskatter (influtna), användning",2024K4,..
+S11 Icke-finansiella bolag,D29.PAY Övriga produktionsskatter,2024K1,98149
+S11 Icke-finansiella bolag,D29.PAY Övriga produktionsskatter,2024K2,105364
+S11 Icke-finansiella bolag,D29.PAY Övriga produktionsskatter,2024K3,103072
+S11 Icke-finansiella bolag,D29.PAY Övriga produktionsskatter,2024K4,101458
+S11 Icke-finansiella bolag,"B2+B3g Driftsöverskott och sammansatt förvärvsinkomst, brutto",2024K1,351450
+S11 Icke-finansiella bolag,"B2+B3g Driftsöverskott och sammansatt förvärvsinkomst, brutto",2024K2,366950
+S11 Icke-finansiella bolag,"B2+B3g Driftsöverskott och sammansatt förvärvsinkomst, brutto",2024K3,303671
+S11 Icke-finansiella bolag,"B2+B3g Driftsöverskott och sammansatt förvärvsinkomst, brutto",2024K4,434258
+S11 Icke-finansiella bolag,"B2+B3n Driftsöverskott och sammansatt förvärvsinkomst, netto",2024K1,157469
+S11 Icke-finansiella bolag,"B2+B3n Driftsöverskott och sammansatt förvärvsinkomst, netto",2024K2,167419
+S11 Icke-finansiella bolag,"B2+B3n Driftsöverskott och sammansatt förvärvsinkomst, netto",2024K3,102934
+S11 Icke-finansiella bolag,"B2+B3n Driftsöverskott och sammansatt förvärvsinkomst, netto",2024K4,231567
+S11 Icke-finansiella bolag,"B2g Driftsöverskott, brutto",2024K1,351450
+S11 Icke-finansiella bolag,"B2g Driftsöverskott, brutto",2024K2,366950
+S11 Icke-finansiella bolag,"B2g Driftsöverskott, brutto",2024K3,303671
+S11 Icke-finansiella bolag,"B2g Driftsöverskott, brutto",2024K4,434258
+S11 Icke-finansiella bolag,"B2n Driftsöverskott, netto",2024K1,157469
+S11 Icke-finansiella bolag,"B2n Driftsöverskott, netto",2024K2,167419
+S11 Icke-finansiella bolag,"B2n Driftsöverskott, netto",2024K3,102934
+S11 Icke-finansiella bolag,"B2n Driftsöverskott, netto",2024K4,231567
+S11 Icke-finansiella bolag,"B3g Sammansatt förvärvsinkomst, brutto",2024K1,..
+S11 Icke-finansiella bolag,"B3g Sammansatt förvärvsinkomst, brutto",2024K2,..
+S11 Icke-finansiella bolag,"B3g Sammansatt förvärvsinkomst, brutto",2024K3,..
+S11 Icke-finansiella bolag,"B3g Sammansatt förvärvsinkomst, brutto",2024K4,..
+S11 Icke-finansiella bolag,"B3n Sammansatt förvärvsinkomst, netto",2024K1,..
+S11 Icke-finansiella bolag,"B3n Sammansatt förvärvsinkomst, netto",2024K2,..
+S11 Icke-finansiella bolag,"B3n Sammansatt förvärvsinkomst, netto",2024K3,..
+S11 Icke-finansiella bolag,"B3n Sammansatt förvärvsinkomst, netto",2024K4,..
+S11 Icke-finansiella bolag,"D1.REC Ersättningar till anställda, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D1.REC Ersättningar till anställda, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D1.REC Ersättningar till anställda, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D1.REC Ersättningar till anställda, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D1net.REC Ersättning till anställda, netto",2024K1,..
+S11 Icke-finansiella bolag,"D1net.REC Ersättning till anställda, netto",2024K2,..
+S11 Icke-finansiella bolag,"D1net.REC Ersättning till anställda, netto",2024K3,..
+S11 Icke-finansiella bolag,"D1net.REC Ersättning till anställda, netto",2024K4,..
+S11 Icke-finansiella bolag,"D11.REC Egentlig lön, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D11.REC Egentlig lön, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D11.REC Egentlig lön, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D11.REC Egentlig lön, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D12.REC Arbetsgivares sociala avgifter, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D12.REC Arbetsgivares sociala avgifter, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D12.REC Arbetsgivares sociala avgifter, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D12.REC Arbetsgivares sociala avgifter, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D2.REC Skatter på produktion och import, tillgång ",2024K1,..
+S11 Icke-finansiella bolag,"D2.REC Skatter på produktion och import, tillgång ",2024K2,..
+S11 Icke-finansiella bolag,"D2.REC Skatter på produktion och import, tillgång ",2024K3,..
+S11 Icke-finansiella bolag,"D2.REC Skatter på produktion och import, tillgång ",2024K4,..
+S11 Icke-finansiella bolag,"D21.REC Produktskatter (influtna), tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D21.REC Produktskatter (influtna), tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D21.REC Produktskatter (influtna), tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D21.REC Produktskatter (influtna), tillgång",2024K4,..
+S11 Icke-finansiella bolag,D211.REC Mervärdesskatter (skatter av momstyp),2024K1,..
+S11 Icke-finansiella bolag,D211.REC Mervärdesskatter (skatter av momstyp),2024K2,..
+S11 Icke-finansiella bolag,D211.REC Mervärdesskatter (skatter av momstyp),2024K3,..
+S11 Icke-finansiella bolag,D211.REC Mervärdesskatter (skatter av momstyp),2024K4,..
+S11 Icke-finansiella bolag,"D212.REC Skatter och tullar på import, exklusive moms",2024K1,..
+S11 Icke-finansiella bolag,"D212.REC Skatter och tullar på import, exklusive moms",2024K2,..
+S11 Icke-finansiella bolag,"D212.REC Skatter och tullar på import, exklusive moms",2024K3,..
+S11 Icke-finansiella bolag,"D212.REC Skatter och tullar på import, exklusive moms",2024K4,..
+S11 Icke-finansiella bolag,"D214.REC Produktskatter, exklusive moms och importskatter",2024K1,..
+S11 Icke-finansiella bolag,"D214.REC Produktskatter, exklusive moms och importskatter",2024K2,..
+S11 Icke-finansiella bolag,"D214.REC Produktskatter, exklusive moms och importskatter",2024K3,..
+S11 Icke-finansiella bolag,"D214.REC Produktskatter, exklusive moms och importskatter",2024K4,..
+S11 Icke-finansiella bolag,D29.REC Övriga produktionsskatter,2024K1,..
+S11 Icke-finansiella bolag,D29.REC Övriga produktionsskatter,2024K2,..
+S11 Icke-finansiella bolag,D29.REC Övriga produktionsskatter,2024K3,..
+S11 Icke-finansiella bolag,D29.REC Övriga produktionsskatter,2024K4,..
+S11 Icke-finansiella bolag,"D4net.REC Kapitalinkomst, netto ",2024K1,-47266
+S11 Icke-finansiella bolag,"D4net.REC Kapitalinkomst, netto ",2024K2,-133938
+S11 Icke-finansiella bolag,"D4net.REC Kapitalinkomst, netto ",2024K3,-10061
+S11 Icke-finansiella bolag,"D4net.REC Kapitalinkomst, netto ",2024K4,-35310
+S11 Icke-finansiella bolag,"D4.REC Kapitalinkomst, tillgång",2024K1,147355
+S11 Icke-finansiella bolag,"D4.REC Kapitalinkomst, tillgång",2024K2,374905
+S11 Icke-finansiella bolag,"D4.REC Kapitalinkomst, tillgång",2024K3,301251
+S11 Icke-finansiella bolag,"D4.REC Kapitalinkomst, tillgång",2024K4,302286
+S11 Icke-finansiella bolag,"D41.REC Ränta, FISIM-justerad, tillgång",2024K1,25355
+S11 Icke-finansiella bolag,"D41.REC Ränta, FISIM-justerad, tillgång",2024K2,25221
+S11 Icke-finansiella bolag,"D41.REC Ränta, FISIM-justerad, tillgång",2024K3,31007
+S11 Icke-finansiella bolag,"D41.REC Ränta, FISIM-justerad, tillgång",2024K4,24895
+S11 Icke-finansiella bolag,"D41G.REC Ränta, tillgång",2024K1,17148
+S11 Icke-finansiella bolag,"D41G.REC Ränta, tillgång",2024K2,17562
+S11 Icke-finansiella bolag,"D41G.REC Ränta, tillgång",2024K3,23287
+S11 Icke-finansiella bolag,"D41G.REC Ränta, tillgång",2024K4,17705
+S11 Icke-finansiella bolag,"D41Adj.REC FISIM-justering, tillgång ",2024K1,8207
+S11 Icke-finansiella bolag,"D41Adj.REC FISIM-justering, tillgång ",2024K2,7659
+S11 Icke-finansiella bolag,"D41Adj.REC FISIM-justering, tillgång ",2024K3,7720
+S11 Icke-finansiella bolag,"D41Adj.REC FISIM-justering, tillgång ",2024K4,7190
+S11 Icke-finansiella bolag,"D4N.REC Andra kapitalinkomster än räntor, tillgång",2024K1,122000
+S11 Icke-finansiella bolag,"D4N.REC Andra kapitalinkomster än räntor, tillgång",2024K2,349684
+S11 Icke-finansiella bolag,"D4N.REC Andra kapitalinkomster än räntor, tillgång",2024K3,270244
+S11 Icke-finansiella bolag,"D4N.REC Andra kapitalinkomster än räntor, tillgång",2024K4,277391
+S11 Icke-finansiella bolag,"D42.REC Utdelning från bolag samt ägaruttag från kvasibolag, tillgång",2024K1,30334
+S11 Icke-finansiella bolag,"D42.REC Utdelning från bolag samt ägaruttag från kvasibolag, tillgång",2024K2,333663
+S11 Icke-finansiella bolag,"D42.REC Utdelning från bolag samt ägaruttag från kvasibolag, tillgång",2024K3,210659
+S11 Icke-finansiella bolag,"D42.REC Utdelning från bolag samt ägaruttag från kvasibolag, tillgång",2024K4,285827
+S11 Icke-finansiella bolag,"D421.REC Utdelning från bolag, tillgång",2024K1,30303
+S11 Icke-finansiella bolag,"D421.REC Utdelning från bolag, tillgång",2024K2,333630
+S11 Icke-finansiella bolag,"D421.REC Utdelning från bolag, tillgång",2024K3,210633
+S11 Icke-finansiella bolag,"D421.REC Utdelning från bolag, tillgång",2024K4,285803
+S11 Icke-finansiella bolag,"D422.REC Ägaruttag från kvasibolag, tillgång",2024K1,31
+S11 Icke-finansiella bolag,"D422.REC Ägaruttag från kvasibolag, tillgång",2024K2,33
+S11 Icke-finansiella bolag,"D422.REC Ägaruttag från kvasibolag, tillgång",2024K3,26
+S11 Icke-finansiella bolag,"D422.REC Ägaruttag från kvasibolag, tillgång",2024K4,24
+S11 Icke-finansiella bolag,"D4o.REC Övriga kapitalinkomster (D43, D44 och D45), tillgång ",2024K1,91666
+S11 Icke-finansiella bolag,"D4o.REC Övriga kapitalinkomster (D43, D44 och D45), tillgång ",2024K2,16021
+S11 Icke-finansiella bolag,"D4o.REC Övriga kapitalinkomster (D43, D44 och D45), tillgång ",2024K3,59585
+S11 Icke-finansiella bolag,"D4o.REC Övriga kapitalinkomster (D43, D44 och D45), tillgång ",2024K4,-8436
+S11 Icke-finansiella bolag,"D43.REC Återinvesterade vinstmedel från utländska direktinvesteringar, tillgång",2024K1,88031
+S11 Icke-finansiella bolag,"D43.REC Återinvesterade vinstmedel från utländska direktinvesteringar, tillgång",2024K2,5962
+S11 Icke-finansiella bolag,"D43.REC Återinvesterade vinstmedel från utländska direktinvesteringar, tillgång",2024K3,56926
+S11 Icke-finansiella bolag,"D43.REC Återinvesterade vinstmedel från utländska direktinvesteringar, tillgång",2024K4,-12007
+S11 Icke-finansiella bolag,"D43S21.REC Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, tillgång",2024K1,43299
+S11 Icke-finansiella bolag,"D43S21.REC Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, tillgång",2024K2,-4648
+S11 Icke-finansiella bolag,"D43S21.REC Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, tillgång",2024K3,20767
+S11 Icke-finansiella bolag,"D43S21.REC Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, tillgång",2024K4,-6214
+S11 Icke-finansiella bolag,"D43S22.REC Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, tillgång",2024K1,44732
+S11 Icke-finansiella bolag,"D43S22.REC Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, tillgång",2024K2,10610
+S11 Icke-finansiella bolag,"D43S22.REC Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, tillgång",2024K3,36159
+S11 Icke-finansiella bolag,"D43S22.REC Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, tillgång",2024K4,-5793
+S11 Icke-finansiella bolag,"D44.REC Övrig kapitalavkastning, tillgång",2024K1,3517
+S11 Icke-finansiella bolag,"D44.REC Övrig kapitalavkastning, tillgång",2024K2,9936
+S11 Icke-finansiella bolag,"D44.REC Övrig kapitalavkastning, tillgång",2024K3,2539
+S11 Icke-finansiella bolag,"D44.REC Övrig kapitalavkastning, tillgång",2024K4,3452
+S11 Icke-finansiella bolag,"D441.REC Kapitalavkastning tillräknad försäkringstagare, tillgång",2024K1,231
+S11 Icke-finansiella bolag,"D441.REC Kapitalavkastning tillräknad försäkringstagare, tillgång",2024K2,244
+S11 Icke-finansiella bolag,"D441.REC Kapitalavkastning tillräknad försäkringstagare, tillgång",2024K3,202
+S11 Icke-finansiella bolag,"D441.REC Kapitalavkastning tillräknad försäkringstagare, tillgång",2024K4,208
+S11 Icke-finansiella bolag,"D442.REC Kapitalavkastning på pensionsrätter, tillgång",2024K1,0
+S11 Icke-finansiella bolag,"D442.REC Kapitalavkastning på pensionsrätter, tillgång",2024K2,0
+S11 Icke-finansiella bolag,"D442.REC Kapitalavkastning på pensionsrätter, tillgång",2024K3,0
+S11 Icke-finansiella bolag,"D442.REC Kapitalavkastning på pensionsrätter, tillgång",2024K4,0
+S11 Icke-finansiella bolag,"D443.REC Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, tillgång",2024K1,3286
+S11 Icke-finansiella bolag,"D443.REC Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, tillgång",2024K2,9692
+S11 Icke-finansiella bolag,"D443.REC Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, tillgång",2024K3,2337
+S11 Icke-finansiella bolag,"D443.REC Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, tillgång",2024K4,3244
+S11 Icke-finansiella bolag,"D45.REC Arrenden, tillgång",2024K1,118
+S11 Icke-finansiella bolag,"D45.REC Arrenden, tillgång",2024K2,123
+S11 Icke-finansiella bolag,"D45.REC Arrenden, tillgång",2024K3,120
+S11 Icke-finansiella bolag,"D45.REC Arrenden, tillgång",2024K4,119
+S11 Icke-finansiella bolag,"D3.PAY Subventioner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D3.PAY Subventioner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D3.PAY Subventioner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D3.PAY Subventioner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D31.PAY Produktsubventioner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D31.PAY Produktsubventioner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D31.PAY Produktsubventioner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D31.PAY Produktsubventioner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D39.PAY Övriga produktionssubventioner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D39.PAY Övriga produktionssubventioner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D39.PAY Övriga produktionssubventioner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D39.PAY Övriga produktionssubventioner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D4.PAY Kapitalinkomst, användning",2024K1,194621
+S11 Icke-finansiella bolag,"D4.PAY Kapitalinkomst, användning",2024K2,508843
+S11 Icke-finansiella bolag,"D4.PAY Kapitalinkomst, användning",2024K3,311312
+S11 Icke-finansiella bolag,"D4.PAY Kapitalinkomst, användning",2024K4,337596
+S11 Icke-finansiella bolag,"D41.PAY Ränta, FISIM-justerad, användning",2024K1,78346
+S11 Icke-finansiella bolag,"D41.PAY Ränta, FISIM-justerad, användning",2024K2,74091
+S11 Icke-finansiella bolag,"D41.PAY Ränta, FISIM-justerad, användning",2024K3,81337
+S11 Icke-finansiella bolag,"D41.PAY Ränta, FISIM-justerad, användning",2024K4,70831
+S11 Icke-finansiella bolag,"D41G.PAY Ränta, användning",2024K1,83945
+S11 Icke-finansiella bolag,"D41G.PAY Ränta, användning",2024K2,79901
+S11 Icke-finansiella bolag,"D41G.PAY Ränta, användning",2024K3,86367
+S11 Icke-finansiella bolag,"D41G.PAY Ränta, användning",2024K4,76387
+S11 Icke-finansiella bolag,"D41Adj.PAY FISIM-justering, användning",2024K1,-5599
+S11 Icke-finansiella bolag,"D41Adj.PAY FISIM-justering, användning",2024K2,-5810
+S11 Icke-finansiella bolag,"D41Adj.PAY FISIM-justering, användning",2024K3,-5030
+S11 Icke-finansiella bolag,"D41Adj.PAY FISIM-justering, användning",2024K4,-5556
+S11 Icke-finansiella bolag,"D4N.PAY Andra kapitalinkomster än räntor, användning",2024K1,116275
+S11 Icke-finansiella bolag,"D4N.PAY Andra kapitalinkomster än räntor, användning",2024K2,434752
+S11 Icke-finansiella bolag,"D4N.PAY Andra kapitalinkomster än räntor, användning",2024K3,229975
+S11 Icke-finansiella bolag,"D4N.PAY Andra kapitalinkomster än räntor, användning",2024K4,266765
+S11 Icke-finansiella bolag,"D42.PAY Utdelning från bolag samt ägaruttag från kvasibolag, användning",2024K1,86019
+S11 Icke-finansiella bolag,"D42.PAY Utdelning från bolag samt ägaruttag från kvasibolag, användning",2024K2,424623
+S11 Icke-finansiella bolag,"D42.PAY Utdelning från bolag samt ägaruttag från kvasibolag, användning",2024K3,213450
+S11 Icke-finansiella bolag,"D42.PAY Utdelning från bolag samt ägaruttag från kvasibolag, användning",2024K4,242375
+S11 Icke-finansiella bolag,"D421.PAY Utdelning från bolag, användning",2024K1,85869
+S11 Icke-finansiella bolag,"D421.PAY Utdelning från bolag, användning",2024K2,424480
+S11 Icke-finansiella bolag,"D421.PAY Utdelning från bolag, användning",2024K3,213034
+S11 Icke-finansiella bolag,"D421.PAY Utdelning från bolag, användning",2024K4,242232
+S11 Icke-finansiella bolag,"D422.PAY Ägaruttag från kvasibolag, användning",2024K1,150
+S11 Icke-finansiella bolag,"D422.PAY Ägaruttag från kvasibolag, användning",2024K2,143
+S11 Icke-finansiella bolag,"D422.PAY Ägaruttag från kvasibolag, användning",2024K3,416
+S11 Icke-finansiella bolag,"D422.PAY Ägaruttag från kvasibolag, användning",2024K4,143
+S11 Icke-finansiella bolag,"D4o.PAY Övriga kapitalinkomster (D43, D44 och D45), användning ",2024K1,30256
+S11 Icke-finansiella bolag,"D4o.PAY Övriga kapitalinkomster (D43, D44 och D45), användning ",2024K2,10129
+S11 Icke-finansiella bolag,"D4o.PAY Övriga kapitalinkomster (D43, D44 och D45), användning ",2024K3,16525
+S11 Icke-finansiella bolag,"D4o.PAY Övriga kapitalinkomster (D43, D44 och D45), användning ",2024K4,24390
+S11 Icke-finansiella bolag,"D43.PAY Återinvesterade vinstmedel från utländska direktinvesteringar, användning",2024K1,28328
+S11 Icke-finansiella bolag,"D43.PAY Återinvesterade vinstmedel från utländska direktinvesteringar, användning",2024K2,8047
+S11 Icke-finansiella bolag,"D43.PAY Återinvesterade vinstmedel från utländska direktinvesteringar, användning",2024K3,14935
+S11 Icke-finansiella bolag,"D43.PAY Återinvesterade vinstmedel från utländska direktinvesteringar, användning",2024K4,22417
+S11 Icke-finansiella bolag,"D43S21.PAY Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, användning",2024K1,10074
+S11 Icke-finansiella bolag,"D43S21.PAY Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, användning",2024K2,1035
+S11 Icke-finansiella bolag,"D43S21.PAY Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, användning",2024K3,14501
+S11 Icke-finansiella bolag,"D43S21.PAY Återinvesterade vinstmedel från utländska direktinvesteringar inom EU, användning",2024K4,4231
+S11 Icke-finansiella bolag,"D43S22.PAY Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, användning",2024K1,18254
+S11 Icke-finansiella bolag,"D43S22.PAY Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, användning",2024K2,7012
+S11 Icke-finansiella bolag,"D43S22.PAY Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, användning",2024K3,434
+S11 Icke-finansiella bolag,"D43S22.PAY Återinvesterade vinstmedel från utländska direktinvesteringar utanför EU, användning",2024K4,18186
+S11 Icke-finansiella bolag,"D44.PAY Övrig kapitalavkastning, användning",2024K1,992
+S11 Icke-finansiella bolag,"D44.PAY Övrig kapitalavkastning, användning",2024K2,1133
+S11 Icke-finansiella bolag,"D44.PAY Övrig kapitalavkastning, användning",2024K3,656
+S11 Icke-finansiella bolag,"D44.PAY Övrig kapitalavkastning, användning",2024K4,1039
+S11 Icke-finansiella bolag,"D441.PAY Kapitalavkastning tillräknad försäkringstagare, användning",2024K1,0
+S11 Icke-finansiella bolag,"D441.PAY Kapitalavkastning tillräknad försäkringstagare, användning",2024K2,0
+S11 Icke-finansiella bolag,"D441.PAY Kapitalavkastning tillräknad försäkringstagare, användning",2024K3,0
+S11 Icke-finansiella bolag,"D441.PAY Kapitalavkastning tillräknad försäkringstagare, användning",2024K4,0
+S11 Icke-finansiella bolag,"D442.PAY Kapitalavkastning på pensionsrätter, användning",2024K1,992
+S11 Icke-finansiella bolag,"D442.PAY Kapitalavkastning på pensionsrätter, användning",2024K2,1133
+S11 Icke-finansiella bolag,"D442.PAY Kapitalavkastning på pensionsrätter, användning",2024K3,656
+S11 Icke-finansiella bolag,"D442.PAY Kapitalavkastning på pensionsrätter, användning",2024K4,1039
+S11 Icke-finansiella bolag,"D443.PAY Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, användning",2024K1,0
+S11 Icke-finansiella bolag,"D443.PAY Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, användning",2024K2,0
+S11 Icke-finansiella bolag,"D443.PAY Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, användning",2024K3,0
+S11 Icke-finansiella bolag,"D443.PAY Kapitalavkastning tillräknad andelsägare i kollektiva investeringsfonder, användning",2024K4,0
+S11 Icke-finansiella bolag,"D45.PAY Arrenden, användning",2024K1,936
+S11 Icke-finansiella bolag,"D45.PAY Arrenden, användning",2024K2,949
+S11 Icke-finansiella bolag,"D45.PAY Arrenden, användning",2024K3,934
+S11 Icke-finansiella bolag,"D45.PAY Arrenden, användning",2024K4,934
+S11 Icke-finansiella bolag,"B4g Företagarinkomst, brutto",2024K1,418531
+S11 Icke-finansiella bolag,"B4g Företagarinkomst, brutto",2024K2,665682
+S11 Icke-finansiella bolag,"B4g Företagarinkomst, brutto",2024K3,521995
+S11 Icke-finansiella bolag,"B4g Företagarinkomst, brutto",2024K4,663740
+S11 Icke-finansiella bolag,"B4n Företagarinkomst, netto",2024K1,224550
+S11 Icke-finansiella bolag,"B4n Företagarinkomst, netto",2024K2,466151
+S11 Icke-finansiella bolag,"B4n Företagarinkomst, netto",2024K3,321258
+S11 Icke-finansiella bolag,"B4n Företagarinkomst, netto",2024K4,461049
+S11 Icke-finansiella bolag,"B5n Primärinkomstsaldo, netto",2024K1,110203
+S11 Icke-finansiella bolag,"B5n Primärinkomstsaldo, netto",2024K2,33481
+S11 Icke-finansiella bolag,"B5n Primärinkomstsaldo, netto",2024K3,92873
+S11 Icke-finansiella bolag,"B5n Primärinkomstsaldo, netto",2024K4,196257
+S11 Icke-finansiella bolag,"D5+D6L+D7net.REC Löpande transfereringar, kontanta, netto",2024K1,-54176
+S11 Icke-finansiella bolag,"D5+D6L+D7net.REC Löpande transfereringar, kontanta, netto",2024K2,-61230
+S11 Icke-finansiella bolag,"D5+D6L+D7net.REC Löpande transfereringar, kontanta, netto",2024K3,-64327
+S11 Icke-finansiella bolag,"D5+D6L+D7net.REC Löpande transfereringar, kontanta, netto",2024K4,-58392
+S11 Icke-finansiella bolag,"D6.REC Sociala avgifter och förmåner, tillgång",2024K1,3150
+S11 Icke-finansiella bolag,"D6.REC Sociala avgifter och förmåner, tillgång",2024K2,3465
+S11 Icke-finansiella bolag,"D6.REC Sociala avgifter och förmåner, tillgång",2024K3,2937
+S11 Icke-finansiella bolag,"D6.REC Sociala avgifter och förmåner, tillgång",2024K4,3293
+S11 Icke-finansiella bolag,"D6.PAY Sociala avgifter och förmåner, användning",2024K1,1116
+S11 Icke-finansiella bolag,"D6.PAY Sociala avgifter och förmåner, användning",2024K2,1074
+S11 Icke-finansiella bolag,"D6.PAY Sociala avgifter och förmåner, användning",2024K3,1112
+S11 Icke-finansiella bolag,"D6.PAY Sociala avgifter och förmåner, användning",2024K4,1080
+S11 Icke-finansiella bolag,D6M.PAY Sociala förmåner inklusive sociala naturaförmåner - köpt marknadsproduktion,2024K1,..
+S11 Icke-finansiella bolag,D6M.PAY Sociala förmåner inklusive sociala naturaförmåner - köpt marknadsproduktion,2024K2,..
+S11 Icke-finansiella bolag,D6M.PAY Sociala förmåner inklusive sociala naturaförmåner - köpt marknadsproduktion,2024K3,..
+S11 Icke-finansiella bolag,D6M.PAY Sociala förmåner inklusive sociala naturaförmåner - köpt marknadsproduktion,2024K4,..
+S11 Icke-finansiella bolag,"D5.REC Löpande inkomst- och förmögenhetsskatter etc., tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D5.REC Löpande inkomst- och förmögenhetsskatter etc., tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D5.REC Löpande inkomst- och förmögenhetsskatter etc., tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D5.REC Löpande inkomst- och förmögenhetsskatter etc., tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D51.REC Inkomstskatter, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D51.REC Inkomstskatter, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D51.REC Inkomstskatter, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D51.REC Inkomstskatter, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D59.REC Övriga löpande skatter, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D59.REC Övriga löpande skatter, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D59.REC Övriga löpande skatter, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D59.REC Övriga löpande skatter, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D6L.REC Sociala avgifter och förmåner, kontanta, tillgång",2024K1,3150
+S11 Icke-finansiella bolag,"D6L.REC Sociala avgifter och förmåner, kontanta, tillgång",2024K2,3465
+S11 Icke-finansiella bolag,"D6L.REC Sociala avgifter och förmåner, kontanta, tillgång",2024K3,2937
+S11 Icke-finansiella bolag,"D6L.REC Sociala avgifter och förmåner, kontanta, tillgång",2024K4,3293
+S11 Icke-finansiella bolag,"D61.REC Sociala avgifter, tillgång",2024K1,3150
+S11 Icke-finansiella bolag,"D61.REC Sociala avgifter, tillgång",2024K2,3465
+S11 Icke-finansiella bolag,"D61.REC Sociala avgifter, tillgång",2024K3,2937
+S11 Icke-finansiella bolag,"D61.REC Sociala avgifter, tillgång",2024K4,3293
+S11 Icke-finansiella bolag,"D611.REC Arbetsgivares faktiska sociala avgifter, tillgång",2024K1,2736
+S11 Icke-finansiella bolag,"D611.REC Arbetsgivares faktiska sociala avgifter, tillgång",2024K2,2909
+S11 Icke-finansiella bolag,"D611.REC Arbetsgivares faktiska sociala avgifter, tillgång",2024K3,2862
+S11 Icke-finansiella bolag,"D611.REC Arbetsgivares faktiska sociala avgifter, tillgång",2024K4,2837
+S11 Icke-finansiella bolag,"D612.REC Arbetsgivares tillräknade sociala avgifter, tillgång",2024K1,0
+S11 Icke-finansiella bolag,"D612.REC Arbetsgivares tillräknade sociala avgifter, tillgång",2024K2,0
+S11 Icke-finansiella bolag,"D612.REC Arbetsgivares tillräknade sociala avgifter, tillgång",2024K3,0
+S11 Icke-finansiella bolag,"D612.REC Arbetsgivares tillräknade sociala avgifter, tillgång",2024K4,0
+S11 Icke-finansiella bolag,"D613.REC Hushållens faktiska egenavgifter, tillgång",2024K1,0
+S11 Icke-finansiella bolag,"D613.REC Hushållens faktiska egenavgifter, tillgång",2024K2,0
+S11 Icke-finansiella bolag,"D613.REC Hushållens faktiska egenavgifter, tillgång",2024K3,0
+S11 Icke-finansiella bolag,"D613.REC Hushållens faktiska egenavgifter, tillgång",2024K4,0
+S11 Icke-finansiella bolag,"D614.REC Hushållens kompletterande egenavgifter, tillgång",2024K1,495
+S11 Icke-finansiella bolag,"D614.REC Hushållens kompletterande egenavgifter, tillgång",2024K2,640
+S11 Icke-finansiella bolag,"D614.REC Hushållens kompletterande egenavgifter, tillgång",2024K3,147
+S11 Icke-finansiella bolag,"D614.REC Hushållens kompletterande egenavgifter, tillgång",2024K4,545
+S11 Icke-finansiella bolag,"D61SC.REC De sociala försäkringssystemens administrationsavgifter, tillgång",2024K1,-81
+S11 Icke-finansiella bolag,"D61SC.REC De sociala försäkringssystemens administrationsavgifter, tillgång",2024K2,-84
+S11 Icke-finansiella bolag,"D61SC.REC De sociala försäkringssystemens administrationsavgifter, tillgång",2024K3,-72
+S11 Icke-finansiella bolag,"D61SC.REC De sociala försäkringssystemens administrationsavgifter, tillgång",2024K4,-89
+S11 Icke-finansiella bolag,"D62.REC Sociala förmåner andra än in natura, tillgång ",2024K1,..
+S11 Icke-finansiella bolag,"D62.REC Sociala förmåner andra än in natura, tillgång ",2024K2,..
+S11 Icke-finansiella bolag,"D62.REC Sociala förmåner andra än in natura, tillgång ",2024K3,..
+S11 Icke-finansiella bolag,"D62.REC Sociala förmåner andra än in natura, tillgång ",2024K4,..
+S11 Icke-finansiella bolag,"D621.REC Kontanta sociala trygghetsförmåner, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D621.REC Kontanta sociala trygghetsförmåner, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D621.REC Kontanta sociala trygghetsförmåner, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D621.REC Kontanta sociala trygghetsförmåner, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D622.REC Förmåner från andra sociala försäkringssystem, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D622.REC Förmåner från andra sociala försäkringssystem, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D622.REC Förmåner från andra sociala försäkringssystem, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D622.REC Förmåner från andra sociala försäkringssystem, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D623.REC Kontant socialt bistånd, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D623.REC Kontant socialt bistånd, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D623.REC Kontant socialt bistånd, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D623.REC Kontant socialt bistånd, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D7.REC Andra löpande transfereringar, tillgång",2024K1,10727
+S11 Icke-finansiella bolag,"D7.REC Andra löpande transfereringar, tillgång",2024K2,10157
+S11 Icke-finansiella bolag,"D7.REC Andra löpande transfereringar, tillgång",2024K3,8541
+S11 Icke-finansiella bolag,"D7.REC Andra löpande transfereringar, tillgång",2024K4,11388
+S11 Icke-finansiella bolag,"D71.REC Skadeförsäkringspremier, netto, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D71.REC Skadeförsäkringspremier, netto, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D71.REC Skadeförsäkringspremier, netto, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D71.REC Skadeförsäkringspremier, netto, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D72.REC Skadeförsäkringsfodringar, tillgång",2024K1,8929
+S11 Icke-finansiella bolag,"D72.REC Skadeförsäkringsfodringar, tillgång",2024K2,9375
+S11 Icke-finansiella bolag,"D72.REC Skadeförsäkringsfodringar, tillgång",2024K3,8087
+S11 Icke-finansiella bolag,"D72.REC Skadeförsäkringsfodringar, tillgång",2024K4,10334
+S11 Icke-finansiella bolag,"D7N.REC Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, tillgång",2024K1,1798
+S11 Icke-finansiella bolag,"D7N.REC Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, tillgång",2024K2,782
+S11 Icke-finansiella bolag,"D7N.REC Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, tillgång",2024K3,454
+S11 Icke-finansiella bolag,"D7N.REC Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, tillgång",2024K4,1054
+S11 Icke-finansiella bolag,"D73.REC Löpande transfereringar inom den offentliga förvaltningen, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D73.REC Löpande transfereringar inom den offentliga förvaltningen, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D73.REC Löpande transfereringar inom den offentliga förvaltningen, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D73.REC Löpande transfereringar inom den offentliga förvaltningen, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D74.REC Löpande internationellt samarbete, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D74.REC Löpande internationellt samarbete, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D74.REC Löpande internationellt samarbete, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D74.REC Löpande internationellt samarbete, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D74A.REC Bidrag till och från EU-institutioner, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D74A.REC Bidrag till och från EU-institutioner, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D74A.REC Bidrag till och från EU-institutioner, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D74A.REC Bidrag till och från EU-institutioner, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D75.REC Övriga löpande transfereringar, tillgång",2024K1,1798
+S11 Icke-finansiella bolag,"D75.REC Övriga löpande transfereringar, tillgång",2024K2,782
+S11 Icke-finansiella bolag,"D75.REC Övriga löpande transfereringar, tillgång",2024K3,454
+S11 Icke-finansiella bolag,"D75.REC Övriga löpande transfereringar, tillgång",2024K4,1054
+S11 Icke-finansiella bolag,"D75S13.REC Övriga löpande transfereringar från offentlig sektor, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D75S13.REC Övriga löpande transfereringar från offentlig sektor, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D75S13.REC Övriga löpande transfereringar från offentlig sektor, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D75S13.REC Övriga löpande transfereringar från offentlig sektor, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D75S1W.REC Övriga löpande transfereringar från andra sektorer än offentlig sektor, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D75S1W.REC Övriga löpande transfereringar från andra sektorer än offentlig sektor, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D75S1W.REC Övriga löpande transfereringar från andra sektorer än offentlig sektor, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D75S1W.REC Övriga löpande transfereringar från andra sektorer än offentlig sektor, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D76.REC EU:s moms- och BNI-baserade egna medel, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D76.REC EU:s moms- och BNI-baserade egna medel, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D76.REC EU:s moms- och BNI-baserade egna medel, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D76.REC EU:s moms- och BNI-baserade egna medel, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D5+D6L+D7.REC Transfereringsinkomster, kontanta, tillgång",2024K1,13877
+S11 Icke-finansiella bolag,"D5+D6L+D7.REC Transfereringsinkomster, kontanta, tillgång",2024K2,13622
+S11 Icke-finansiella bolag,"D5+D6L+D7.REC Transfereringsinkomster, kontanta, tillgång",2024K3,11478
+S11 Icke-finansiella bolag,"D5+D6L+D7.REC Transfereringsinkomster, kontanta, tillgång",2024K4,14681
+S11 Icke-finansiella bolag,"B5n+D5+D6L+D7.REC Primärinkomstsaldo, netto, och transferingsinkomster, kontanta, tillgång",2024K1,124080
+S11 Icke-finansiella bolag,"B5n+D5+D6L+D7.REC Primärinkomstsaldo, netto, och transferingsinkomster, kontanta, tillgång",2024K2,47103
+S11 Icke-finansiella bolag,"B5n+D5+D6L+D7.REC Primärinkomstsaldo, netto, och transferingsinkomster, kontanta, tillgång",2024K3,104351
+S11 Icke-finansiella bolag,"B5n+D5+D6L+D7.REC Primärinkomstsaldo, netto, och transferingsinkomster, kontanta, tillgång",2024K4,210938
+S11 Icke-finansiella bolag,"D5.PAY Löpande inkomst- och förmögenhetsskatter etc., användning",2024K1,43087
+S11 Icke-finansiella bolag,"D5.PAY Löpande inkomst- och förmögenhetsskatter etc., användning",2024K2,45418
+S11 Icke-finansiella bolag,"D5.PAY Löpande inkomst- och förmögenhetsskatter etc., användning",2024K3,46193
+S11 Icke-finansiella bolag,"D5.PAY Löpande inkomst- och förmögenhetsskatter etc., användning",2024K4,42804
+S11 Icke-finansiella bolag,"D51.PAY Inkomstskatter, användning",2024K1,43087
+S11 Icke-finansiella bolag,"D51.PAY Inkomstskatter, användning",2024K2,45418
+S11 Icke-finansiella bolag,"D51.PAY Inkomstskatter, användning",2024K3,46193
+S11 Icke-finansiella bolag,"D51.PAY Inkomstskatter, användning",2024K4,42804
+S11 Icke-finansiella bolag,"D59.PAY Övriga löpande skatter, användning",2024K1,0
+S11 Icke-finansiella bolag,"D59.PAY Övriga löpande skatter, användning",2024K2,0
+S11 Icke-finansiella bolag,"D59.PAY Övriga löpande skatter, användning",2024K3,0
+S11 Icke-finansiella bolag,"D59.PAY Övriga löpande skatter, användning",2024K4,0
+S11 Icke-finansiella bolag,"D6L.PAY Sociala avgifter och förmåner, kontanta, användning",2024K1,1116
+S11 Icke-finansiella bolag,"D6L.PAY Sociala avgifter och förmåner, kontanta, användning",2024K2,1074
+S11 Icke-finansiella bolag,"D6L.PAY Sociala avgifter och förmåner, kontanta, användning",2024K3,1112
+S11 Icke-finansiella bolag,"D6L.PAY Sociala avgifter och förmåner, kontanta, användning",2024K4,1080
+S11 Icke-finansiella bolag,"D61.PAY Sociala avgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D61.PAY Sociala avgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D61.PAY Sociala avgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D61.PAY Sociala avgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D611.PAY Arbetsgivares faktiska sociala avgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D611.PAY Arbetsgivares faktiska sociala avgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D611.PAY Arbetsgivares faktiska sociala avgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D611.PAY Arbetsgivares faktiska sociala avgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D612.PAY Arbetsgivares tillräknade sociala avgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D612.PAY Arbetsgivares tillräknade sociala avgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D612.PAY Arbetsgivares tillräknade sociala avgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D612.PAY Arbetsgivares tillräknade sociala avgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D613.PAY Hushållens faktiska egenavgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D613.PAY Hushållens faktiska egenavgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D613.PAY Hushållens faktiska egenavgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D613.PAY Hushållens faktiska egenavgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D614.PAY Hushållens kompletterande egenavgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D614.PAY Hushållens kompletterande egenavgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D614.PAY Hushållens kompletterande egenavgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D614.PAY Hushållens kompletterande egenavgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D61SC.PAY De sociala försäkringssystemens administrationsavgifter, användning",2024K1,..
+S11 Icke-finansiella bolag,"D61SC.PAY De sociala försäkringssystemens administrationsavgifter, användning",2024K2,..
+S11 Icke-finansiella bolag,"D61SC.PAY De sociala försäkringssystemens administrationsavgifter, användning",2024K3,..
+S11 Icke-finansiella bolag,"D61SC.PAY De sociala försäkringssystemens administrationsavgifter, användning",2024K4,..
+S11 Icke-finansiella bolag,"D62.PAY Sociala förmåner andra än in natura, användning ",2024K1,1116
+S11 Icke-finansiella bolag,"D62.PAY Sociala förmåner andra än in natura, användning ",2024K2,1074
+S11 Icke-finansiella bolag,"D62.PAY Sociala förmåner andra än in natura, användning ",2024K3,1112
+S11 Icke-finansiella bolag,"D62.PAY Sociala förmåner andra än in natura, användning ",2024K4,1080
+S11 Icke-finansiella bolag,"D621.PAY Kontanta sociala trygghetsförmåner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D621.PAY Kontanta sociala trygghetsförmåner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D621.PAY Kontanta sociala trygghetsförmåner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D621.PAY Kontanta sociala trygghetsförmåner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D622.PAY Förmåner från andra sociala försäkringssystem, användning",2024K1,1116
+S11 Icke-finansiella bolag,"D622.PAY Förmåner från andra sociala försäkringssystem, användning",2024K2,1074
+S11 Icke-finansiella bolag,"D622.PAY Förmåner från andra sociala försäkringssystem, användning",2024K3,1112
+S11 Icke-finansiella bolag,"D622.PAY Förmåner från andra sociala försäkringssystem, användning",2024K4,1080
+S11 Icke-finansiella bolag,"D623.PAY Kontant socialt bistånd, användning",2024K1,..
+S11 Icke-finansiella bolag,"D623.PAY Kontant socialt bistånd, användning",2024K2,..
+S11 Icke-finansiella bolag,"D623.PAY Kontant socialt bistånd, användning",2024K3,..
+S11 Icke-finansiella bolag,"D623.PAY Kontant socialt bistånd, användning",2024K4,..
+S11 Icke-finansiella bolag,"D7.PAY Andra löpande transfereringar, användning",2024K1,23850
+S11 Icke-finansiella bolag,"D7.PAY Andra löpande transfereringar, användning",2024K2,28360
+S11 Icke-finansiella bolag,"D7.PAY Andra löpande transfereringar, användning",2024K3,28500
+S11 Icke-finansiella bolag,"D7.PAY Andra löpande transfereringar, användning",2024K4,29189
+S11 Icke-finansiella bolag,"D71.PAY Skadeförsäkringspremier, netto, användning",2024K1,9689
+S11 Icke-finansiella bolag,"D71.PAY Skadeförsäkringspremier, netto, användning",2024K2,8276
+S11 Icke-finansiella bolag,"D71.PAY Skadeförsäkringspremier, netto, användning",2024K3,6205
+S11 Icke-finansiella bolag,"D71.PAY Skadeförsäkringspremier, netto, användning",2024K4,6529
+S11 Icke-finansiella bolag,"D72.PAY Skadeförsäkringsfodringar, användning",2024K1,..
+S11 Icke-finansiella bolag,"D72.PAY Skadeförsäkringsfodringar, användning",2024K2,..
+S11 Icke-finansiella bolag,"D72.PAY Skadeförsäkringsfodringar, användning",2024K3,..
+S11 Icke-finansiella bolag,"D72.PAY Skadeförsäkringsfodringar, användning",2024K4,..
+S11 Icke-finansiella bolag,"D7N.PAY Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, användning",2024K1,14161
+S11 Icke-finansiella bolag,"D7N.PAY Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, användning",2024K2,20084
+S11 Icke-finansiella bolag,"D7N.PAY Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, användning",2024K3,22295
+S11 Icke-finansiella bolag,"D7N.PAY Andra löpande transfereringar än skadeförsäkringspremier och -fordringar, användning",2024K4,22660
+S11 Icke-finansiella bolag,"D73.PAY Löpande transfereringar inom den offentliga förvaltningen, användning",2024K1,..
+S11 Icke-finansiella bolag,"D73.PAY Löpande transfereringar inom den offentliga förvaltningen, användning",2024K2,..
+S11 Icke-finansiella bolag,"D73.PAY Löpande transfereringar inom den offentliga förvaltningen, användning",2024K3,..
+S11 Icke-finansiella bolag,"D73.PAY Löpande transfereringar inom den offentliga förvaltningen, användning",2024K4,..
+S11 Icke-finansiella bolag,"D74.PAY Löpande internationellt samarbete, användning",2024K1,..
+S11 Icke-finansiella bolag,"D74.PAY Löpande internationellt samarbete, användning",2024K2,..
+S11 Icke-finansiella bolag,"D74.PAY Löpande internationellt samarbete, användning",2024K3,..
+S11 Icke-finansiella bolag,"D74.PAY Löpande internationellt samarbete, användning",2024K4,..
+S11 Icke-finansiella bolag,"D74A.PAY Bidrag till och från EU-institutioner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D74A.PAY Bidrag till och från EU-institutioner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D74A.PAY Bidrag till och från EU-institutioner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D74A.PAY Bidrag till och från EU-institutioner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D75.PAY Övriga löpande transfereringar, användning",2024K1,14161
+S11 Icke-finansiella bolag,"D75.PAY Övriga löpande transfereringar, användning",2024K2,20084
+S11 Icke-finansiella bolag,"D75.PAY Övriga löpande transfereringar, användning",2024K3,22295
+S11 Icke-finansiella bolag,"D75.PAY Övriga löpande transfereringar, användning",2024K4,22660
+S11 Icke-finansiella bolag,"D75S13.PAY Övriga löpande transfereringar från offentlig förvaltning, användning",2024K1,..
+S11 Icke-finansiella bolag,"D75S13.PAY Övriga löpande transfereringar från offentlig förvaltning, användning",2024K2,..
+S11 Icke-finansiella bolag,"D75S13.PAY Övriga löpande transfereringar från offentlig förvaltning, användning",2024K3,..
+S11 Icke-finansiella bolag,"D75S13.PAY Övriga löpande transfereringar från offentlig förvaltning, användning",2024K4,..
+S11 Icke-finansiella bolag,"D75S1W.PAY Övriga löpande transfereringar från andra sektorer än offentlig sektor, användning",2024K1,..
+S11 Icke-finansiella bolag,"D75S1W.PAY Övriga löpande transfereringar från andra sektorer än offentlig sektor, användning",2024K2,..
+S11 Icke-finansiella bolag,"D75S1W.PAY Övriga löpande transfereringar från andra sektorer än offentlig sektor, användning",2024K3,..
+S11 Icke-finansiella bolag,"D75S1W.PAY Övriga löpande transfereringar från andra sektorer än offentlig sektor, användning",2024K4,..
+S11 Icke-finansiella bolag,"D76.PAY EU:s moms- och BNI-baserade egna medel, användning",2024K1,..
+S11 Icke-finansiella bolag,"D76.PAY EU:s moms- och BNI-baserade egna medel, användning",2024K2,..
+S11 Icke-finansiella bolag,"D76.PAY EU:s moms- och BNI-baserade egna medel, användning",2024K3,..
+S11 Icke-finansiella bolag,"D76.PAY EU:s moms- och BNI-baserade egna medel, användning",2024K4,..
+S11 Icke-finansiella bolag,"D5+D6L+D7.PAY Transfereringsutgifter, kontanta, användning",2024K1,68053
+S11 Icke-finansiella bolag,"D5+D6L+D7.PAY Transfereringsutgifter, kontanta, användning",2024K2,74852
+S11 Icke-finansiella bolag,"D5+D6L+D7.PAY Transfereringsutgifter, kontanta, användning",2024K3,75805
+S11 Icke-finansiella bolag,"D5+D6L+D7.PAY Transfereringsutgifter, kontanta, användning",2024K4,73073
+S11 Icke-finansiella bolag,"B6g Disponibel inkomst, brutto",2024K1,250008
+S11 Icke-finansiella bolag,"B6g Disponibel inkomst, brutto",2024K2,171782
+S11 Icke-finansiella bolag,"B6g Disponibel inkomst, brutto",2024K3,229283
+S11 Icke-finansiella bolag,"B6g Disponibel inkomst, brutto",2024K4,340556
+S11 Icke-finansiella bolag,"B6n Disponibel inkomst, netto",2024K1,56027
+S11 Icke-finansiella bolag,"B6n Disponibel inkomst, netto",2024K2,-27749
+S11 Icke-finansiella bolag,"B6n Disponibel inkomst, netto",2024K3,28546
+S11 Icke-finansiella bolag,"B6n Disponibel inkomst, netto",2024K4,137865
+S11 Icke-finansiella bolag,"D63.REC Sociala naturaförmåner, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D63.REC Sociala naturaförmåner, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D63.REC Sociala naturaförmåner, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D63.REC Sociala naturaförmåner, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D631.REC Sociala naturaförmåner, icke-marknadsproduktion, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D631.REC Sociala naturaförmåner, icke-marknadsproduktion, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D631.REC Sociala naturaförmåner, icke-marknadsproduktion, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D631.REC Sociala naturaförmåner, icke-marknadsproduktion, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D632.REC Sociala naturaförmåner, köpt marknadsproduktion, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D632.REC Sociala naturaförmåner, köpt marknadsproduktion, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D632.REC Sociala naturaförmåner, köpt marknadsproduktion, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D632.REC Sociala naturaförmåner, köpt marknadsproduktion, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D63.PAY Sociala naturaförmåner, användning",2024K1,..
+S11 Icke-finansiella bolag,"D63.PAY Sociala naturaförmåner, användning",2024K2,..
+S11 Icke-finansiella bolag,"D63.PAY Sociala naturaförmåner, användning",2024K3,..
+S11 Icke-finansiella bolag,"D63.PAY Sociala naturaförmåner, användning",2024K4,..
+S11 Icke-finansiella bolag,"D631.PAY Sociala naturaförmåner, icke-marknadsproduktion, användning",2024K1,..
+S11 Icke-finansiella bolag,"D631.PAY Sociala naturaförmåner, icke-marknadsproduktion, användning",2024K2,..
+S11 Icke-finansiella bolag,"D631.PAY Sociala naturaförmåner, icke-marknadsproduktion, användning",2024K3,..
+S11 Icke-finansiella bolag,"D631.PAY Sociala naturaförmåner, icke-marknadsproduktion, användning",2024K4,..
+S11 Icke-finansiella bolag,"D632.PAY Sociala naturaförmåner, köpt marknadsproduktion, användning",2024K1,..
+S11 Icke-finansiella bolag,"D632.PAY Sociala naturaförmåner, köpt marknadsproduktion, användning",2024K2,..
+S11 Icke-finansiella bolag,"D632.PAY Sociala naturaförmåner, köpt marknadsproduktion, användning",2024K3,..
+S11 Icke-finansiella bolag,"D632.PAY Sociala naturaförmåner, köpt marknadsproduktion, användning",2024K4,..
+S11 Icke-finansiella bolag,"B7g Justerad disponibel inkomst, brutto",2024K1,250008
+S11 Icke-finansiella bolag,"B7g Justerad disponibel inkomst, brutto",2024K2,171782
+S11 Icke-finansiella bolag,"B7g Justerad disponibel inkomst, brutto",2024K3,229283
+S11 Icke-finansiella bolag,"B7g Justerad disponibel inkomst, brutto",2024K4,340556
+S11 Icke-finansiella bolag,"B7n Justerad disponibel inkomst, netto",2024K1,56027
+S11 Icke-finansiella bolag,"B7n Justerad disponibel inkomst, netto",2024K2,-27749
+S11 Icke-finansiella bolag,"B7n Justerad disponibel inkomst, netto",2024K3,28546
+S11 Icke-finansiella bolag,"B7n Justerad disponibel inkomst, netto",2024K4,137865
+S11 Icke-finansiella bolag,"D8net.REC Justering för förändring av pensionsrätter, netto",2024K1,-2006
+S11 Icke-finansiella bolag,"D8net.REC Justering för förändring av pensionsrätter, netto",2024K2,-2355
+S11 Icke-finansiella bolag,"D8net.REC Justering för förändring av pensionsrätter, netto",2024K3,-1803
+S11 Icke-finansiella bolag,"D8net.REC Justering för förändring av pensionsrätter, netto",2024K4,-2172
+S11 Icke-finansiella bolag,"D8.REC Justering för förändring i pensionsrätter, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D8.REC Justering för förändring i pensionsrätter, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D8.REC Justering för förändring i pensionsrätter, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D8.REC Justering för förändring i pensionsrätter, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D8.PAY Justering för förändring i pensionsrätter, användning",2024K1,2006
+S11 Icke-finansiella bolag,"D8.PAY Justering för förändring i pensionsrätter, användning",2024K2,2355
+S11 Icke-finansiella bolag,"D8.PAY Justering för förändring i pensionsrätter, användning",2024K3,1803
+S11 Icke-finansiella bolag,"D8.PAY Justering för förändring i pensionsrätter, användning",2024K4,2172
+S11 Icke-finansiella bolag,P31.PAY Individuella konsumtionsutgifter,2024K1,..
+S11 Icke-finansiella bolag,P31.PAY Individuella konsumtionsutgifter,2024K2,..
+S11 Icke-finansiella bolag,P31.PAY Individuella konsumtionsutgifter,2024K3,..
+S11 Icke-finansiella bolag,P31.PAY Individuella konsumtionsutgifter,2024K4,..
+S11 Icke-finansiella bolag,P32.PAY Kollektiva konsumtionsutgifter,2024K1,..
+S11 Icke-finansiella bolag,P32.PAY Kollektiva konsumtionsutgifter,2024K2,..
+S11 Icke-finansiella bolag,P32.PAY Kollektiva konsumtionsutgifter,2024K3,..
+S11 Icke-finansiella bolag,P32.PAY Kollektiva konsumtionsutgifter,2024K4,..
+S11 Icke-finansiella bolag,P3F.PAY Konsumtion av FISIM,2024K1,..
+S11 Icke-finansiella bolag,P3F.PAY Konsumtion av FISIM,2024K2,..
+S11 Icke-finansiella bolag,P3F.PAY Konsumtion av FISIM,2024K3,..
+S11 Icke-finansiella bolag,P3F.PAY Konsumtion av FISIM,2024K4,..
+S11 Icke-finansiella bolag,"B8g Sparande, brutto",2024K1,248002
+S11 Icke-finansiella bolag,"B8g Sparande, brutto",2024K2,169427
+S11 Icke-finansiella bolag,"B8g Sparande, brutto",2024K3,227480
+S11 Icke-finansiella bolag,"B8g Sparande, brutto",2024K4,338384
+S11 Icke-finansiella bolag,"B8n Sparande, netto",2024K1,54021
+S11 Icke-finansiella bolag,"B8n Sparande, netto",2024K2,-30104
+S11 Icke-finansiella bolag,"B8n Sparande, netto",2024K3,26743
+S11 Icke-finansiella bolag,"B8n Sparande, netto",2024K4,135693
+S11 Icke-finansiella bolag,"B8nPriv Sparande exklusive justering för förändring av pensionsrätter, netto",2024K1,..
+S11 Icke-finansiella bolag,"B8nPriv Sparande exklusive justering för förändring av pensionsrätter, netto",2024K2,..
+S11 Icke-finansiella bolag,"B8nPriv Sparande exklusive justering för förändring av pensionsrätter, netto",2024K3,..
+S11 Icke-finansiella bolag,"B8nPriv Sparande exklusive justering för förändring av pensionsrätter, netto",2024K4,..
+S11 Icke-finansiella bolag,B12 Bytesbalans,2024K1,..
+S11 Icke-finansiella bolag,B12 Bytesbalans,2024K2,..
+S11 Icke-finansiella bolag,B12 Bytesbalans,2024K3,..
+S11 Icke-finansiella bolag,B12 Bytesbalans,2024K4,..
+S11 Icke-finansiella bolag,P41.PAY Faktisk individuell konsumtion,2024K1,..
+S11 Icke-finansiella bolag,P41.PAY Faktisk individuell konsumtion,2024K2,..
+S11 Icke-finansiella bolag,P41.PAY Faktisk individuell konsumtion,2024K3,..
+S11 Icke-finansiella bolag,P41.PAY Faktisk individuell konsumtion,2024K4,..
+S11 Icke-finansiella bolag,P42.PAY Faktisk kollektiv konsumtion,2024K1,..
+S11 Icke-finansiella bolag,P42.PAY Faktisk kollektiv konsumtion,2024K2,..
+S11 Icke-finansiella bolag,P42.PAY Faktisk kollektiv konsumtion,2024K3,..
+S11 Icke-finansiella bolag,P42.PAY Faktisk kollektiv konsumtion,2024K4,..
+S11 Icke-finansiella bolag,"D9net.REC Kapitaltransfereringar, netto, tillgång",2024K1,8243
+S11 Icke-finansiella bolag,"D9net.REC Kapitaltransfereringar, netto, tillgång",2024K2,5182
+S11 Icke-finansiella bolag,"D9net.REC Kapitaltransfereringar, netto, tillgång",2024K3,3863
+S11 Icke-finansiella bolag,"D9net.REC Kapitaltransfereringar, netto, tillgång",2024K4,7942
+S11 Icke-finansiella bolag,"D9.REC Kapitaltransfereringar, tillgång",2024K1,10075
+S11 Icke-finansiella bolag,"D9.REC Kapitaltransfereringar, tillgång",2024K2,7014
+S11 Icke-finansiella bolag,"D9.REC Kapitaltransfereringar, tillgång",2024K3,5750
+S11 Icke-finansiella bolag,"D9.REC Kapitaltransfereringar, tillgång",2024K4,9771
+S11 Icke-finansiella bolag,"D91.REC Kapitalskatter, tillgång",2024K1,..
+S11 Icke-finansiella bolag,"D91.REC Kapitalskatter, tillgång",2024K2,..
+S11 Icke-finansiella bolag,"D91.REC Kapitalskatter, tillgång",2024K3,..
+S11 Icke-finansiella bolag,"D91.REC Kapitalskatter, tillgång",2024K4,..
+S11 Icke-finansiella bolag,"D9N.REC Investeringsbidrag och övriga kapitaltransfereringar, tillgång",2024K1,10075
+S11 Icke-finansiella bolag,"D9N.REC Investeringsbidrag och övriga kapitaltransfereringar, tillgång",2024K2,7014
+S11 Icke-finansiella bolag,"D9N.REC Investeringsbidrag och övriga kapitaltransfereringar, tillgång",2024K3,5750
+S11 Icke-finansiella bolag,"D9N.REC Investeringsbidrag och övriga kapitaltransfereringar, tillgång",2024K4,9771
+S11 Icke-finansiella bolag,"D92.REC Investeringsbidrag, tillgång",2024K1,4690
+S11 Icke-finansiella bolag,"D92.REC Investeringsbidrag, tillgång",2024K2,2736
+S11 Icke-finansiella bolag,"D92.REC Investeringsbidrag, tillgång",2024K3,994
+S11 Icke-finansiella bolag,"D92.REC Investeringsbidrag, tillgång",2024K4,3608
+S11 Icke-finansiella bolag,"D99.REC Andra kapitaltransfereringar, tillgång",2024K1,5385
+S11 Icke-finansiella bolag,"D99.REC Andra kapitaltransfereringar, tillgång",2024K2,4278
+S11 Icke-finansiella bolag,"D99.REC Andra kapitaltransfereringar, tillgång",2024K3,4756
+S11 Icke-finansiella bolag,"D99.REC Andra kapitaltransfereringar, tillgång",2024K4,6163
+S11 Icke-finansiella bolag,"D9.PAY Kapitaltransfereringar, användning",2024K1,1832
+S11 Icke-finansiella bolag,"D9.PAY Kapitaltransfereringar, användning",2024K2,1832
+S11 Icke-finansiella bolag,"D9.PAY Kapitaltransfereringar, användning",2024K3,1887
+S11 Icke-finansiella bolag,"D9.PAY Kapitaltransfereringar, användning",2024K4,1829
+S11 Icke-finansiella bolag,"D91.PAY Kapitalskatter, användning",2024K1,0
+S11 Icke-finansiella bolag,"D91.PAY Kapitalskatter, användning",2024K2,0
+S11 Icke-finansiella bolag,"D91.PAY Kapitalskatter, användning",2024K3,0
+S11 Icke-finansiella bolag,"D91.PAY Kapitalskatter, användning",2024K4,0
+S11 Icke-finansiella bolag,"D9N.PAY Investeringsbidrag och övriga kapitaltransfereringar, användning",2024K1,1832
+S11 Icke-finansiella bolag,"D9N.PAY Investeringsbidrag och övriga kapitaltransfereringar, användning",2024K2,1832
+S11 Icke-finansiella bolag,"D9N.PAY Investeringsbidrag och övriga kapitaltransfereringar, användning",2024K3,1887
+S11 Icke-finansiella bolag,"D9N.PAY Investeringsbidrag och övriga kapitaltransfereringar, användning",2024K4,1829
+S11 Icke-finansiella bolag,"D92.PAY Investeringsbidrag, användning",2024K1,..
+S11 Icke-finansiella bolag,"D92.PAY Investeringsbidrag, användning",2024K2,..
+S11 Icke-finansiella bolag,"D92.PAY Investeringsbidrag, användning",2024K3,..
+S11 Icke-finansiella bolag,"D92.PAY Investeringsbidrag, användning",2024K4,..
+S11 Icke-finansiella bolag,"D99.PAY Andra kapitaltransfereringar, användning",2024K1,1832
+S11 Icke-finansiella bolag,"D99.PAY Andra kapitaltransfereringar, användning",2024K2,1832
+S11 Icke-finansiella bolag,"D99.PAY Andra kapitaltransfereringar, användning",2024K3,1887
+S11 Icke-finansiella bolag,"D99.PAY Andra kapitaltransfereringar, användning",2024K4,1829
+S11 Icke-finansiella bolag,"P51c.REC Kapitalförslitning, tillgång",2024K1,193981
+S11 Icke-finansiella bolag,"P51c.REC Kapitalförslitning, tillgång",2024K2,199531
+S11 Icke-finansiella bolag,"P51c.REC Kapitalförslitning, tillgång",2024K3,200737
+S11 Icke-finansiella bolag,"P51c.REC Kapitalförslitning, tillgång",2024K4,202691
+S11 Icke-finansiella bolag,B101 Förändringar i nettoförmögenhet genom sparande och kapitaltransfereringar,2024K1,62264
+S11 Icke-finansiella bolag,B101 Förändringar i nettoförmögenhet genom sparande och kapitaltransfereringar,2024K2,-24922
+S11 Icke-finansiella bolag,B101 Förändringar i nettoförmögenhet genom sparande och kapitaltransfereringar,2024K3,30606
+S11 Icke-finansiella bolag,B101 Förändringar i nettoförmögenhet genom sparande och kapitaltransfereringar,2024K4,143635
+S11 Icke-finansiella bolag,P5L.PAY Bruttoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K1,266447
+S11 Icke-finansiella bolag,P5L.PAY Bruttoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K2,247800
+S11 Icke-finansiella bolag,P5L.PAY Bruttoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K3,241525
+S11 Icke-finansiella bolag,P5L.PAY Bruttoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K4,273293
+S11 Icke-finansiella bolag,P5Ln.PAY Nettoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K1,72466
+S11 Icke-finansiella bolag,P5Ln.PAY Nettoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K2,48269
+S11 Icke-finansiella bolag,P5Ln.PAY Nettoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K3,40788
+S11 Icke-finansiella bolag,P5Ln.PAY Nettoinvestering inklusive nettoanskaffning av icke-producerade tillgångar,2024K4,70602
+S11 Icke-finansiella bolag,P51g.PAY Fast bruttoinvestering ,2024K1,235242
+S11 Icke-finansiella bolag,P51g.PAY Fast bruttoinvestering ,2024K2,263264
+S11 Icke-finansiella bolag,P51g.PAY Fast bruttoinvestering ,2024K3,233077
+S11 Icke-finansiella bolag,P51g.PAY Fast bruttoinvestering ,2024K4,301254
+S11 Icke-finansiella bolag,P51n.PAY Fast nettoinvestering,2024K1,41261
+S11 Icke-finansiella bolag,P51n.PAY Fast nettoinvestering,2024K2,63733
+S11 Icke-finansiella bolag,P51n.PAY Fast nettoinvestering,2024K3,32340
+S11 Icke-finansiella bolag,P51n.PAY Fast nettoinvestering,2024K4,98563
+S11 Icke-finansiella bolag,P5M.PAY Lagerinvestering samt anskaffning minus avyttring av värdeföremål,2024K1,31136
+S11 Icke-finansiella bolag,P5M.PAY Lagerinvestering samt anskaffning minus avyttring av värdeföremål,2024K2,-16684
+S11 Icke-finansiella bolag,P5M.PAY Lagerinvestering samt anskaffning minus avyttring av värdeföremål,2024K3,9198
+S11 Icke-finansiella bolag,P5M.PAY Lagerinvestering samt anskaffning minus avyttring av värdeföremål,2024K4,-23938
+S11 Icke-finansiella bolag,P52.PAY Lagerinvestering ,2024K1,31136
+S11 Icke-finansiella bolag,P52.PAY Lagerinvestering ,2024K2,-16684
+S11 Icke-finansiella bolag,P52.PAY Lagerinvestering ,2024K3,9198
+S11 Icke-finansiella bolag,P52.PAY Lagerinvestering ,2024K4,-23938
+S11 Icke-finansiella bolag,P53.PAY Anskaffning minus avyttring av värdeföremål ,2024K1,0
+S11 Icke-finansiella bolag,P53.PAY Anskaffning minus avyttring av värdeföremål ,2024K2,0
+S11 Icke-finansiella bolag,P53.PAY Anskaffning minus avyttring av värdeföremål ,2024K3,0
+S11 Icke-finansiella bolag,P53.PAY Anskaffning minus avyttring av värdeföremål ,2024K4,0
+S11 Icke-finansiella bolag,NP.PAY Anskaffning minus avyttring av icke-producerade tillgångar,2024K1,69
+S11 Icke-finansiella bolag,NP.PAY Anskaffning minus avyttring av icke-producerade tillgångar,2024K2,1220
+S11 Icke-finansiella bolag,NP.PAY Anskaffning minus avyttring av icke-producerade tillgångar,2024K3,-750
+S11 Icke-finansiella bolag,NP.PAY Anskaffning minus avyttring av icke-producerade tillgångar,2024K4,-4023
+S11 Icke-finansiella bolag,B9 Finansiellt sparande ,2024K1,-10202
+S11 Icke-finansiella bolag,B9 Finansiellt sparande ,2024K2,-73191
+S11 Icke-finansiella bolag,B9 Finansiellt sparande ,2024K3,-10182
+S11 Icke-finansiella bolag,B9 Finansiellt sparande ,2024K4,73033
+S11 Icke-finansiella bolag,B9Priv Finansiellt sparande exklusive justering för förändring av pensionsrätter,2024K1,..
+S11 Icke-finansiella bolag,B9Priv Finansiellt sparande exklusive justering för förändring av pensionsrätter,2024K2,..
+S11 Icke-finansiella bolag,B9Priv Finansiellt sparande exklusive justering för förändring av pensionsrätter,2024K3,..
+S11 Icke-finansiella bolag,B9Priv Finansiellt sparande exklusive justering för förändring av pensionsrätter,2024K4,..
+S11 Icke-finansiella bolag,DB9 Avvikelse från finansiellt sparande enligt finansiella konton,2024K1,..
+S11 Icke-finansiella bolag,DB9 Avvikelse från finansiellt sparande enligt finansiella konton,2024K2,..
+S11 Icke-finansiella bolag,DB9 Avvikelse från finansiellt sparande enligt finansiella konton,2024K3,..
+S11 Icke-finansiella bolag,DB9 Avvikelse från finansiellt sparande enligt finansiella konton,2024K4,..
+S11 Icke-finansiella bolag,"B1gmCap BNP per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B1gmCap BNP per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B1gmCap BNP per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B1gmCap BNP per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B5gCap BNI per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B5gCap BNI per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B5gCap BNI per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B5gCap BNI per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B6gCap Disponibel inkomst, brutto, per capita, TKR ",2024K1,..
+S11 Icke-finansiella bolag,"B6gCap Disponibel inkomst, brutto, per capita, TKR ",2024K2,..
+S11 Icke-finansiella bolag,"B6gCap Disponibel inkomst, brutto, per capita, TKR ",2024K3,..
+S11 Icke-finansiella bolag,"B6gCap Disponibel inkomst, brutto, per capita, TKR ",2024K4,..
+S11 Icke-finansiella bolag,"B6nCap Disponibel inkomst, netto, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B6nCap Disponibel inkomst, netto, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B6nCap Disponibel inkomst, netto, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B6nCap Disponibel inkomst, netto, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B7gCap Justerad disponibel inkomst, brutto, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B7gCap Justerad disponibel inkomst, brutto, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B7gCap Justerad disponibel inkomst, brutto, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B7gCap Justerad disponibel inkomst, brutto, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B7nCap Justerad disponibel inkomst, netto, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B7nCap Justerad disponibel inkomst, netto, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B7nCap Justerad disponibel inkomst, netto, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B7nCap Justerad disponibel inkomst, netto, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,OTE.PAY Summa utgifter,2024K1,..
+S11 Icke-finansiella bolag,OTE.PAY Summa utgifter,2024K2,..
+S11 Icke-finansiella bolag,OTE.PAY Summa utgifter,2024K3,..
+S11 Icke-finansiella bolag,OTE.PAY Summa utgifter,2024K4,..
+S11 Icke-finansiella bolag,OTR.REC Summa inkomster,2024K1,..
+S11 Icke-finansiella bolag,OTR.REC Summa inkomster,2024K2,..
+S11 Icke-finansiella bolag,OTR.REC Summa inkomster,2024K3,..
+S11 Icke-finansiella bolag,OTR.REC Summa inkomster,2024K4,..
+S11 Icke-finansiella bolag,OTEIMF.PAY Utgifter enligt IMF,2024K1,..
+S11 Icke-finansiella bolag,OTEIMF.PAY Utgifter enligt IMF,2024K2,..
+S11 Icke-finansiella bolag,OTEIMF.PAY Utgifter enligt IMF,2024K3,..
+S11 Icke-finansiella bolag,OTEIMF.PAY Utgifter enligt IMF,2024K4,..
+S11 Icke-finansiella bolag,OTRIMF.REC Inkomster enligt IMF,2024K1,..
+S11 Icke-finansiella bolag,OTRIMF.REC Inkomster enligt IMF,2024K2,..
+S11 Icke-finansiella bolag,OTRIMF.REC Inkomster enligt IMF,2024K3,..
+S11 Icke-finansiella bolag,OTRIMF.REC Inkomster enligt IMF,2024K4,..
+S11 Icke-finansiella bolag,OTHE.PAY Övriga utgifter enligt IMF,2024K1,..
+S11 Icke-finansiella bolag,OTHE.PAY Övriga utgifter enligt IMF,2024K2,..
+S11 Icke-finansiella bolag,OTHE.PAY Övriga utgifter enligt IMF,2024K3,..
+S11 Icke-finansiella bolag,OTHE.PAY Övriga utgifter enligt IMF,2024K4,..
+S11 Icke-finansiella bolag,D2+D5+D91.REC Totala skatter,2024K1,..
+S11 Icke-finansiella bolag,D2+D5+D91.REC Totala skatter,2024K2,..
+S11 Icke-finansiella bolag,D2+D5+D91.REC Totala skatter,2024K3,..
+S11 Icke-finansiella bolag,D2+D5+D91.REC Totala skatter,2024K4,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.REC Bidrag från utlandet,2024K1,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.REC Bidrag från utlandet,2024K2,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.REC Bidrag från utlandet,2024K3,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.REC Bidrag från utlandet,2024K4,..
+S11 Icke-finansiella bolag,OTHR.REC Övriga inkomster enligt IMF,2024K1,..
+S11 Icke-finansiella bolag,OTHR.REC Övriga inkomster enligt IMF,2024K2,..
+S11 Icke-finansiella bolag,OTHR.REC Övriga inkomster enligt IMF,2024K3,..
+S11 Icke-finansiella bolag,OTHR.REC Övriga inkomster enligt IMF,2024K4,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.PAY Bidrag till utlandet,2024K1,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.PAY Bidrag till utlandet,2024K2,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.PAY Bidrag till utlandet,2024K3,..
+S11 Icke-finansiella bolag,D7NS2+D9NS2.PAY Bidrag till utlandet,2024K4,..
+S11 Icke-finansiella bolag,"GOB Löpande balans, brutto",2024K1,..
+S11 Icke-finansiella bolag,"GOB Löpande balans, brutto",2024K2,..
+S11 Icke-finansiella bolag,"GOB Löpande balans, brutto",2024K3,..
+S11 Icke-finansiella bolag,"GOB Löpande balans, brutto",2024K4,..
+S11 Icke-finansiella bolag,"POP Medelfolkmängd, tusental",2024K1,..
+S11 Icke-finansiella bolag,"POP Medelfolkmängd, tusental",2024K2,..
+S11 Icke-finansiella bolag,"POP Medelfolkmängd, tusental",2024K3,..
+S11 Icke-finansiella bolag,"POP Medelfolkmängd, tusental",2024K4,..
+S11 Icke-finansiella bolag,FACTINC.REC Faktorinkomster exkl. arbetsgivares soc.avg. (B2n+B3n+D11+D4net),2024K1,..
+S11 Icke-finansiella bolag,FACTINC.REC Faktorinkomster exkl. arbetsgivares soc.avg. (B2n+B3n+D11+D4net),2024K2,..
+S11 Icke-finansiella bolag,FACTINC.REC Faktorinkomster exkl. arbetsgivares soc.avg. (B2n+B3n+D11+D4net),2024K3,..
+S11 Icke-finansiella bolag,FACTINC.REC Faktorinkomster exkl. arbetsgivares soc.avg. (B2n+B3n+D11+D4net),2024K4,..
+S11 Icke-finansiella bolag,D4X.REC Aktieutdelning och arrendenetto (D42+D45net),2024K1,..
+S11 Icke-finansiella bolag,D4X.REC Aktieutdelning och arrendenetto (D42+D45net),2024K2,..
+S11 Icke-finansiella bolag,D4X.REC Aktieutdelning och arrendenetto (D42+D45net),2024K3,..
+S11 Icke-finansiella bolag,D4X.REC Aktieutdelning och arrendenetto (D42+D45net),2024K4,..
+S11 Icke-finansiella bolag,INCS13.REC Inkomstöverföringar från offentlig förvaltning (D62+D75S13),2024K1,..
+S11 Icke-finansiella bolag,INCS13.REC Inkomstöverföringar från offentlig förvaltning (D62+D75S13),2024K2,..
+S11 Icke-finansiella bolag,INCS13.REC Inkomstöverföringar från offentlig förvaltning (D62+D75S13),2024K3,..
+S11 Icke-finansiella bolag,INCS13.REC Inkomstöverföringar från offentlig förvaltning (D62+D75S13),2024K4,..
+S11 Icke-finansiella bolag,"INCOTH.REC Överföringar från privat sektor, netto (D62net+D72+D75S1Wnet-D71)",2024K1,..
+S11 Icke-finansiella bolag,"INCOTH.REC Överföringar från privat sektor, netto (D62net+D72+D75S1Wnet-D71)",2024K2,..
+S11 Icke-finansiella bolag,"INCOTH.REC Överföringar från privat sektor, netto (D62net+D72+D75S1Wnet-D71)",2024K3,..
+S11 Icke-finansiella bolag,"INCOTH.REC Överföringar från privat sektor, netto (D62net+D72+D75S1Wnet-D71)",2024K4,..
+S11 Icke-finansiella bolag,TAXSOC.PAY Skatter och övriga sociala avgifter (D5+D613+D614+D61SC),2024K1,..
+S11 Icke-finansiella bolag,TAXSOC.PAY Skatter och övriga sociala avgifter (D5+D613+D614+D61SC),2024K2,..
+S11 Icke-finansiella bolag,TAXSOC.PAY Skatter och övriga sociala avgifter (D5+D613+D614+D61SC),2024K3,..
+S11 Icke-finansiella bolag,TAXSOC.PAY Skatter och övriga sociala avgifter (D5+D613+D614+D61SC),2024K4,..
+S11 Icke-finansiella bolag,OTHTS.PAY Övriga sociala avgifter (D613+D614+D61SC),2024K1,..
+S11 Icke-finansiella bolag,OTHTS.PAY Övriga sociala avgifter (D613+D614+D61SC),2024K2,..
+S11 Icke-finansiella bolag,OTHTS.PAY Övriga sociala avgifter (D613+D614+D61SC),2024K3,..
+S11 Icke-finansiella bolag,OTHTS.PAY Övriga sociala avgifter (D613+D614+D61SC),2024K4,..
+S11 Icke-finansiella bolag,"EMPPS Medelantalet sysselsatta, tusental",2024K1,..
+S11 Icke-finansiella bolag,"EMPPS Medelantalet sysselsatta, tusental",2024K2,..
+S11 Icke-finansiella bolag,"EMPPS Medelantalet sysselsatta, tusental",2024K3,..
+S11 Icke-finansiella bolag,"EMPPS Medelantalet sysselsatta, tusental",2024K4,..
+S11 Icke-finansiella bolag,"EMPHW Arbetade timmar, tusental",2024K1,..
+S11 Icke-finansiella bolag,"EMPHW Arbetade timmar, tusental",2024K2,..
+S11 Icke-finansiella bolag,"EMPHW Arbetade timmar, tusental",2024K3,..
+S11 Icke-finansiella bolag,"EMPHW Arbetade timmar, tusental",2024K4,..
+S11 Icke-finansiella bolag,"B8nCap Sparande, netto, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B8nCap Sparande, netto, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B8nCap Sparande, netto, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B8nCap Sparande, netto, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B8nPrivCap Sparande, netto, exkl. förändr. av pensionsrätter, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B8nPrivCap Sparande, netto, exkl. förändr. av pensionsrätter, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B8nPrivCap Sparande, netto, exkl. förändr. av pensionsrätter, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B8nPrivCap Sparande, netto, exkl. förändr. av pensionsrätter, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B9Cap Finansiellt sparande, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B9Cap Finansiellt sparande, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B9Cap Finansiellt sparande, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B9Cap Finansiellt sparande, per capita, TKR",2024K4,..
+S11 Icke-finansiella bolag,"B9PrivCap Finansiellt sparande exkl. förändr. av pensionsrätter, per capita, TKR",2024K1,..
+S11 Icke-finansiella bolag,"B9PrivCap Finansiellt sparande exkl. förändr. av pensionsrätter, per capita, TKR",2024K2,..
+S11 Icke-finansiella bolag,"B9PrivCap Finansiellt sparande exkl. förändr. av pensionsrätter, per capita, TKR",2024K3,..
+S11 Icke-finansiella bolag,"B9PrivCap Finansiellt sparande exkl. förändr. av pensionsrätter, per capita, TKR",2024K4,..

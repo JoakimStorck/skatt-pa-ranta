@@ -1,0 +1,494 @@
+\documentclass[11pt]{article}
+
+% --- Teckenkodning och teckensnitt (robust för pdflatex, xelatex och lualatex) ---
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{lmodern.sty}{%
+    \usepackage[T1]{fontenc}%
+    \usepackage{lmodern}%
+  }{%
+    % Fallback utan lmodern: basteckensnitt (OT1) återger å, ä, ö via inputenc.
+  }
+\else
+  % xelatex/lualatex: Unicode-hantering med OpenType-teckensnitt om tillgängligt.
+  \IfFileExists{fontspec.sty}{\usepackage{fontspec}}{}
+\fi
+% Svensk babel laddas automatiskt om språkfilen finns (ger bättre avstavning):
+\IfFileExists{swedish.ldf}{\usepackage[swedish]{babel}}{}
+\usepackage{csquotes}
+
+% --- Layout ---
+\usepackage[a4paper,margin=2.6cm]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=4pt}
+\usepackage{longtable}
+
+\title{Skatten på arbete och valet mellan människa och maskin}
+\author{Joakim Storck, \texttt{joc@du.se}}
+
+\date{Uppdaterad den \today. Första version den 27 juni 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\textit{En skatteväxling från arbete till mark-, natur- och koncessionsräntor, med tillämpning på Sverige}
+\end{center}
+
+\vspace{1em}
+
+% =====================================================================
+\section*{Om begreppet ränta}
+
+Texten använder återkommande ordet \emph{ränta} i en mening som inte har något med bankränta att göra. I nationalekonomi betyder \enquote{ekonomisk ränta} det värde som tillfaller den som äger något \emph{utan att själv ha skapat det}: lägesvärdet på en tomt, värdet i en naturtillgång, eller den övervinst ett företag tjänar tack vare en monopol\-ställning. När ordet \enquote{ränta} förekommer nedan är det alltid detta som avses, aldrig räntan på ett lån. Där det går använder jag hellre de konkreta orden: lägesvärde, markvärde, naturresursvärde, övervinst.
+
+% =====================================================================
+\section{Problemet}
+
+Det svenska skattesystemet, liksom de flesta inom EU, belastar arbete tungt medan ägande av värden är billigt. Redan där snedvrids valet mellan människa och maskin. Skillnaden är stor mellan vad en arbetsgivare betalar och vad löntagaren får ut: för en genomsnittlig svensk löntagare är drygt fyrtio procent av den totala arbetskostnaden skatt (OECD, 2024). Bördan varierar dock kraftigt inom unionen, från omkring en fjärdedel av arbetskostnaden i Cypern och Malta till drygt halva i Belgien, med ett snitt kring trettionio procent och en majoritet av länderna över fyrtio (OECD och Tax Foundation, 2024--2025). Sverige ligger i det övre skiktet, men inte i extremen. Maskiner och kapital bär ingen motsvarande pålaga: ett inköp skrivs av, räntan på lånet dras av, och det en maskin producerar beskattas inte som lön.
+
+Konsekvenserna är två. För det första uppstår en stark drivkraft att minska mängden mänskligt arbete och ersätta det med maskiner, det vill säga automation av både fysiskt och kognitivt arbete. För det andra blir de uppgifter som kräver en människa (reparation, hantverk, omsorg) jämförelsevis allt olönsammare.
+
+Länge har automation ersatt framför allt rutinartat arbete, både manuellt (löpande band, lagerhantering) och rutinmässigt kognitivt (bokföring, växeltelefoni, bankkassörens uppgifter), medan det icke-rutinartade kunskapsarbetet varit relativt skyddat. Det nya är att kognitiv automation genom artificiell intelligens når även dit: analys, text, programmering, kundtjänst, handläggning. Snedvridningen har spridit sig från fabriksgolvet till kontoret. Samma skattekil som gjorde det konstgjort billigt att byta en industriarbetare mot en robot gör det nu konstgjort billigt att byta en tjänsteman mot ett AI-system. Ett sådant system har två sidor som modellen behandlar olika: den reproducerbara beräkningskraften är vanlig utrustning och hör till maskinledet, ren kostnadssubstitution, medan plattforms-, data- och nätverksvärdet som gör tjänsten svår att kopiera är en immateriell ränta och hör till övervinstledet. Den skattedrivna substitutionen sker via det första; den fångade marknadsmakten via det andra. De måste hållas isär, för modellen vill bara åt den skatteinducerade substitutionen, inte tekniken i sig.
+
+Detta är särskilt problematiskt eftersom utbildning har varit ett uttalat politiskt mål för att höja produktiviteten och kunskapsinnehållet i arbetet. I en nära framtid är en stor kategori kunskapsarbeten inte längre fredade utan utsätts för automation genom artificiell intelligens. Konsekvenserna är långtgående, och det är svårförsvarligt att skattesystemet aktivt driver på utfasningen av mänskligt arbete genom att göra det onödigt konkurrenssvagt i jämförelse med maskinerna.
+
+Ett vanligt motargument är att automation befriar människor från repetitivt och \emph{oönskat} arbete, och att utfasningen därför är av godo. Men det argumentet vilar på en värdering av vad som är önskat respektive oönskat arbete, och den värderingen är en smak, inte ett faktum. Poängen här är en annan och smalare: oavsett vilket arbete man tycker bör bort ska det vara \emph{de reala kostnaderna}, inte en skattekil, som avgör var gränsen dras. Frågan om vilket arbete som är meningsfullt eller önskvärt hör hemma i arbetsmiljöregler och kollektiva avtal, inte i skattesystemet, och lämnas därför därhän här.
+
+Men det vore ett misstag att stanna vid \enquote{skatten på arbete är för hög}. Det tolkas lätt som ett påstående om hur stor staten ska vara, vilket är värdeladdat och lätt att avfärda. En skarpare formulering är att skattesystemet behandlar arbete och kapital olika så att en arbetstimme bär mer skatt än motsvarande maskininsats, och därmed snedvrids valet mellan människa och maskin till maskinens fördel även när människan skulle kunna vara konkurrenskraftig. Och eftersom valet att anställa eller automatisera avgörs i marginalen, är det skatten på den sist intjänade kronan som styr. Marginalskatten på inkomsten ligger för de kvalificerade löner industrin betalar nära hälften, klart över genomsnittet; hela skattekilen mot konsumtion är större än så. Problemet är inte att maskiner ersätter människor, för automation är en grundval för den ökade levnadsstandarden under de senaste etthundrafemtio åren. Problemet är att skatten på arbete snedvrider konkurrensen mellan människa och maskin. Och bakom den snedvridningen ligger något ännu mer grundläggande: \emph{själva måttstocken mäter fel, och alltid åt samma håll.}
+
+Marginalen kan skrivas rent. En uppgift automatiseras när $C_A + T_A < C_L + T_L$, där $C$ är den reala kostnaden och $T$ skatten för automationsinsatsen ($A$; en maskin eller ett AI-system) respektive arbetet ($L$). Det oproblematiska fallet är $C_A < C_L$: automationen är verkligen billigare, och då bör substitutionen ske. Det snedvridna fallet är $C_A > C_L$ men $C_A + T_A < C_L + T_L$: insatsen är dyrare i reala termer men vinner ändå, enbart därför att skattekilen på arbete är större. Det är uteslutande det senare ledet modellen vill eliminera. Villkoret förutsätter att skattekilen inte fullt ut övervältras på lönen: vid full övervältring anpassas bruttolönekostnaden och substitutionseffekten försvinner. Den svenska lönebildningens stelhet (avtalade golv, en sammanpressad struktur) gör dock genomslaget ofullständigt, särskilt i botten av lönefördelningen där automationsmarginalen är som mest aktiv.
+
+Av detta följer ett bindande reformvillkor: en skatteväxling är bara godtagbar om den minskar, eller åtminstone inte ökar, skattekilen mellan mänskligt arbete och automationsinsats. Intäkter från markvärden, naturresursräntor, koncessionsräntor och övervinster får därför inte först användas till att sänka skatten på automationskapital.\footnote{Med automationskapital avses här kapital, mjukvara eller beräkningssystem som används för att ersätta mänsklig arbetsinsats i en uppgift, inte kapital i allmänhet.} De måste först användas till att sänka den marginalskatt som gör arbete dyrt: i första hand arbetsgivaravgiften, därefter marginalskatten på kvalificerat arbete. Först när denna snedvridning har minskat kan normal kapitalavkastning avlastas ytterligare.
+
+Dagens system mäter värde med ett ungefärligt mått (marknadspris och balansräkning), och det måttet har ett systematiskt fel som \textbf{alltid pekar åt samma håll}: det underskattar värde som ingen riktigt äger eller kan balansföra, och klumpar ihop förtjänad avkastning med fångad ränta i det som går att samla på hög och äga. Arbete bokförs som en kostnad. Läges- och naturresursräntan bokförs som gratis eller som löpande inkomst, aldrig som den knapphetsränta den är. Kapital bokförs som en tillgång.
+
+Detta är ett påstående om \emph{vad som är sant}, inte om \emph{vad som är önskvärt} (med ett fackord: ett \emph{epistemiskt} påstående, inte ett normativt), och skillnaden är hela poängen. Säger man \enquote{arbete är mer värt än kapital och bör beskattas mildare} har man uttryckt en värdering, och vem som helst kan svara \enquote{det tycker inte jag}. Säger man i stället \enquote{måttstocken mäter fel, och felet pekar konsekvent åt ett håll} har man påstått något som antingen stämmer eller inte. Då måste den som invänder visa att felet inte finns, inte bara hänvisa till en annan smak. \emph{Jag säger inte att arbete förtjänar bättre behandling; jag säger att mätaren är trasig.}
+
+En precisering skärper påståendet, för det rymmer tre led av olika styrka. Att räkenskaperna inte synliggör den ekonomiska räntan, och att arbete och kapital behandlas asymmetriskt i beskattningen, är svårt att bestrida. Det tredje ledet, att ägbart kapital \enquote{överskattas}, ska däremot inte läsas som att marknaden prissätter det fel: givet äganderätter och avkastningskrav kan priset på en tillgång vara alldeles korrekt. Felet ligger i att skattebasen behandlar en \emph{sammansättning} (förtjänad avkastning och fångad ränta i samma klump) som om den vore en enda, neutralt skapad storhet. Det är fortfarande ett mätfel, men i basens brist på uppdelning, inte i priset som sådant. Just därför biter modellen utan att behöva hävda att någon tillgång är \enquote{för högt} värderad: den skiljer bara ut den fångade räntan ur klumpen och lämnar den förtjänta avkastningen i fred.
+
+Skillnaden mellan vad arbetsgivaren betalar och vad löntagaren får ut (\emph{skattekilen}) är bara den synligaste delen av felet. Ur samma rot växer fyra symptom: för mycket automation, hantverkets olönsamhet, att laga blir dyrare än att köpa nytt, och att ägandet samlas hos allt färre. Fyra ansikten på ett och samma mätfel.
+
+Det sista symptomet följer direkt ur de tre första. När arbetsinkomst beskattas tungt och löpande, men den oförtjänta värdestegringen på ägda tillgångar (lägesvärde, bestående övervinst) beskattas lätt och ofta uppskjutet, blir avkastningen efter skatt på att \emph{äga} sådana tillgångar högre än på att \emph{arbeta}. Den som redan äger fångar den lågt beskattade stegringen och lägger den på hög; den som bara har sitt arbete beskattas på sitt huvudflöde. Koncentrationen är en förutsägbar följd av samma mätfel, inte en självständig orättvisa: måttet belönar innehav framför insats, och förmögenhetsfördelningen vidgas därefter. Modellen beskattar det ackumulerande ledet vid källan och lättar det arbetande. Den tar bort differensen som gynnar de redan ägande.
+
+\medskip
+
+\noindent\textbf{Problemställning.} Skattesystemet blandar samman förtjänad avkastning på ägbart kapital med den fångade ränta som ligger inbäddad i samma tillgångar, och beskattar samtidigt arbete tyngre i marginalen än de maskiner som kan ersätta det. Det gör människan \emph{onödigt konkurrenssvag}: automationen drivs snabbare än de verkliga kostnaderna motiverar, hantverk och reparation missgynnas som arbetsintensiva verksamheter, och ägandet driver mot de få. Felet har en bestämd riktning, och påståendet gäller vad som är sant, inte vad som är önskvärt.
+
+% =====================================================================
+\section{Modellen: ett mätfel, fyra sorters kapital, en ordning}
+
+\subsection*{Mätfelet}
+
+Räkenskaperna byggdes för att hålla reda på det som går att äga, sälja och föra upp på en balansräkning. Arbetets värde (kunnande, hälsa, mening) och naturens värde (fiskbestånd, grundvatten, orörda lägen) lever i former som ingen riktigt äger, och faller därför genom samma springa: de bokförs som kostnad eller räknas inte alls. Systemet är blint för värde som inte går att äga och balansföra.
+
+Blindheten är inte bara principiell utan inbyggd i den officiella statistiken. Nationalräkenskaperna delar företagens förädlingsvärde i två delar (arbetskraftskostnad och driftsöverskott) men delar aldrig driftsöverskottet vidare i normal avkastning och övervinst; någon sådan uppdelning görs inte, och driftsöverskottet beräknas dessutom residualt, som det som återstår när löner och avgifter dragits från BNP. Den oförtjänta räntan har därför ingen egen rad i räkenskaperna: den ligger dold i en enda klump kapitalinkomst. Att den ändå går att avgränsa visar ett internationellt regelverk längre fram: det snitt mellan förtjänad och oförtjänt avkastning som den inhemska statistiken aldrig gör, drar OECD:s minimiskatt redan i praktiken.
+
+\subsection*{Fyra sorters kapital, fyra behandlingar}
+
+Ordet \enquote{kapital} döljer fyra helt olika ting, en uppdelning som ligger nära den akademiska litteraturen om beskattning av ekonomisk ränta (Schwerhoff, Edenhofer och Fleurbaey 2020), men som här kompletteras med automationsfrågan hos Acemoglu, Manera och Restrepo (2020):
+
+\begin{itemize}
+\item \textbf{Mark och naturtillgångar.} Ingen har skapat dem, och de kan inte flytta. Lägesvärdet på en tomt är upparbetat av samhället runtomkring, inte av ägaren; på samma sätt är vattenkraftens och malmens värde en knapphetsränta på en orörlig naturtillgång. Detta beskattas hårdast och \emph{från början}: marken och forsen ligger kvar och brukas lika mycket oavsett skatt, så ingenting går förlorat. Naturresurs\emph{räntan} hör alltså till kärnan lika mycket som tomträntan, inte till någon senare breddning. (Det är en marknadsprissatt knapphetsränta, inte oprissatta \emph{naturvärden} som ren luft eller biologisk mångfald, vars värdering är omtvistad och som modellen lämnar därhän.)
+\item \textbf{Maskiner och produktivt kapital: automationen själv.} Det är skapat av någons sparande och kan byggas i fler exemplar. Därför ska det inte behandlas som oförtjänt ränta. Men av detta följer inte att skatten på sådant kapital ska sänkas före skatten på arbete. Acemoglu, Manera och Restrepo visar tvärtom att när arbetet redan beskattas hårdare än automationskapitalet kan ytterligare sänkningar av kapitalskatten driva fram för mycket automation. Den centrala skillnaden är mellan kapitalintensitet och automation: mer kapital i uppgifter där kapital har verklig komparativ fördel kan vara bra även för arbetet, medan automation av marginaluppgifter kan tränga undan människor trots små produktivitetsvinster. Modellen skiljer därför inte mellan arbetskompletterande och arbetsersättande kapital i skattebasen, eftersom en sådan gräns snabbt blir en robotskatt i annan form. Gränsen dras mellan normal avkastning och ränta, och på användningssidan gäller regeln att arbetet ska lättas först.
+\item \textbf{Marknadsränta och övervinster.} Vinst utöver den normala avkastningen: det ett företag tjänar tack vare en monopol\-ställning, ett patent eller en plattform som alla måste använda. Det är hit AI-systemets räntedel hör: inte den reproducerbara beräkningskraften, som är vanlig utrustning och hör till föregående punkt, utan plattforms-, data- och nätverksvärdet som gör tjänsten svår att kopiera och konkurrera bort. Den kan i princip beskattas utan att något går förlorat, men den är rörlig: den kan flytta till länder med lägre skatt, och kräver därför internationellt samarbete.
+\item \textbf{Koncessions- och tillståndsränta.} En egen sort, med annan källa än marknadsräntan ovan: den uppstår inte på en öppen marknad utan därför att staten \emph{själv} skapar eller begränsar tillträdet: bankoktrojer, nät- och frekvenstillstånd, koncessioner, exploateringsrätter och reglerade marknader med begränsad konkurrens. När staten skapar knappheten bör den också ta ut knapphetsvärdet, genom auktion eller avgift. Till skillnad från marknadsräntan är denna ränta i regel \emph{orörlig}: tillståndet är knutet till en frekvens, ett nät eller en plats i Sverige och kan inte flyttas utomlands, vilket gör att den kan beskattas hårt utan internationellt samarbete.
+\end{itemize}
+
+Att naturresursräntan i dag tas ut svagt är ett politiskt val, inte en naturlag. Fastighetsskatten på vattenkraftverk sänktes 2017--2020, mineralersättningen är internationellt låg, och Norge tar samma slags ränta genom en \emph{grunnrenteskatt}. Den neutrala mekanismen är en ränteskatt som drar av normal avkastning och bara träffar överskottet. Eftersom basen är orörlig kan den tas hårdare utan att bromsa normala investeringar, till skillnad från en platt royalty som kan slå ut marginella fyndigheter.
+
+Gemensamt för alla fyra leden gäller: beskatta det oförtjänta värdet var det än sitter, använd intäkten först till att göra mänskligt arbete billigare, och behandla normal kapitalavkastning som något annat än ränta men inte som den första posten att avlasta.
+
+\subsection*{Var hör pengar på banken, aktier och fonder hemma?}
+
+För de flesta är kapital just detta: sparkonto, aktier, fonder. Men dessa är inte en egen sort, utan \emph{ägarbevis} på de fyra ovan. En aktie är en andel i ett företags mark, maskiner och eventuella ränta; ett banksparande är en fordran som i sin tur vilar på sådana tillgångar. Modellen lägger därför ingen ny skatt på sparkontot, indexfonden eller aktieportföljen som sådan. Den beskattar vissa av de underliggande värdena (lägesvärden, naturtillgångar, koncessionsränta och bestående övervinst) vid källan, hos marken och företaget, inte på det finansiella skalet. Den vanlige spararen med en bred fond äger mest andelar i företag som lever på förtjänad avkastning, och berörs därför föga, samtidigt som hen får del av den lägre skatten på arbete. Det som däremot \emph{är} oförtjänt värde, en aktieportfölj vars värde till stor del vilar på lägesräntor eller en monopolställning, nås av modellen där värdet uppstår och inte kan gömmas undan.
+
+\subsection*{Ordningen mellan skatterna}
+
+Modellen söker ingen mittpunkt mellan skatt på värden och skatt på arbete. Den föreskriver en ordning, där det billigaste tas först:
+
+\begin{enumerate}
+\item \textbf{Mark, naturtillgångar och koncessionsränta}: ingenting går förlorat, och de kan inte fly. Beskatta först och hårdast; koncessionsräntan kan tas ut på egen hand eftersom tillståndet är bundet till Sverige.
+\item \textbf{Marknadsränta och övervinster}: inget går förlorat i princip, men de är rörliga. Fånga så mycket som internationellt samarbete tillåter.
+\item \textbf{Arbete och normal kapitalavkastning}: här \emph{försvinner} värde när skatten får folk att avstå (fackordet är \emph{dödvikt}: affärer som aldrig blir av, arbete som inte utförs, reparationen som inte beställs, värde som aldrig uppstår för någon). På intäktssidan är detta därför restbasen, det man belastar sist. På användningssidan är ordningen däremot inte symmetrisk: arbete lättas först, eftersom det är där automationssnedvridningen uppstår, medan normal kapitalavkastning avlastas först senare.
+\end{enumerate}
+
+Den gamla intuitionen om \enquote{en optimal balans} får här sin form: utnyttja den fasta basen först, fånga den rörliga så långt samarbetet räcker, och låt arbete och normal kapitalavkastning bära restposten först därefter. Hur stor restposten blir beror på hur stor markbasen är och hur samarbetsvillig omvärlden är.
+
+Ordningen har en spegelbild på användningssidan. Om syftet är att minska den skatteinducerade automationen måste växlingen i första hand sänka den skatt som ligger \emph{mellan arbetsgivarens kostnad och arbetsinsatsen}, arbetsgivaravgiften, inte den skatt som påverkar löntagarens disponibla inkomst. Det är arbetsgivarens marginalkostnad, inte den anställdes nettolön, som avgör anställningsbeslutet. Intäktens första krona bör därför gå till sänkta arbetsgivaravgifter på låga och medelhöga löner, dess andra till lägre marginalskatt på kvalificerat arbete, och en bred inkomstskattesänkning sist.
+
+Modellen bråkar inte med gängse nationalekonomi; den använder den. Den vanliga slutsatsen avråder från hård skatt på \emph{sparande och investeringar}, eftersom de kan fly. Den säger ingenting emot att beskatta \emph{oförtjänta övervärden}, som per definition inte är en belöning för att man investerat och därför inte kan skrämmas bort (samma hållning bär Mirrlees Review 2011, som förordar skatt på markvärden och annan fast ränta medan den normala avkastningen på sparande och investeringar fredas genom avdrag).
+
+% =====================================================================
+\section{Hur stora är beloppen för Sverige?}
+
+Sveriges samlade skatteuttag är drygt 41 procent av BNP (OECD, 2024). Den del som ska flyttas är skatten på arbete: inkomstskatt plus sociala avgifter drar in omkring 25 procent av BNP. Räknar man bort kapitaldelen av inkomstskatten landar ren arbetsskatt på ungefär \textbf{24 procent av BNP}. Det är målet.
+
+Hur stort är då utrymmet på andra sidan? Svaret spänner över ett intervall, och det som skiljer ändarna är en enda parameter: markandelen av bebyggd fastighet.
+
+\begin{itemize}
+\item Den \textbf{försiktiga} läsningen summerar markvärdet ur fastighetstaxeringen med en låg markandel (35 procent) för bebyggd fastighet. Tillsammans med lantbrukets mark- och naturvärde (exakt hämtat) ger det en markförmögenhet på omkring 1,2 gånger BNP och en kapitaliserad markränta på \textbf{omkring 5 procent} av BNP.
+\item Den \textbf{generösa} läsningen använder en hög markandel (55 procent) och kommer då till omkring 1,8 gånger BNP och \textbf{omkring 7 procent}.
+\end{itemize}
+
+Bägge läsningarna bygger på marknadsvärden ur fastighetstaxeringen; skillnaden gäller enbart hur stor andel av den bebyggda fastighetens värde som räknas som mark. Naturresursdelen av denna bas (vattenkraft, malm, skog) är i dag lätt beskattad -- fastighetsskatten på vattenkraft 0,5 procent, mineralersättningen 0,2 procent -- och ingår i reformens kärna från början; den ligger redan i de 5 respektive 7 procenten.
+
+Till detta kommer \textbf{övervinsterna}. Att mäta dem kräver en konstruktion, inte en uppslagning: statistiken redovisar bara det samlade driftsöverskottet, inte hur stor del som är normal avkastning och hur stor del som är ränta. Räntan får därför skattas som en residual: nettodriftsöverskottet minus en normal avkastning på kapitalstocken (avkastningskrav gånger kapitalstockens värde). Internationellt pekar sådana skattningar åt samma håll: Barkai (2020) finner för USA att den rena vinstens andel steg medan kapitalets andel föll, så att den växande vinsten till stor del inte är betalning för mer kapital utan ränta, knuten till patent, data och nätverkseffekter (jämför De Loecker, Eeckhout och Unger 2020 om stigande prispåslag). För svensk del bör två saker hållas i minnet: löneandelen har varit förhållandevis stabil sedan 1980-talet, så bilden av en skenande vinstandel passar sämre än i USA; och exportmästarnas vinst är till stor del förtjänad avkastning som pressas av internationell konkurrens (se avsnittet om innovation). En residualskattning på svenska nationalräkenskaper (redovisad i bilagans räntekalkyl) visar tvärtom att den rena marknadsmaktsräntan i Sverige är liten, i storleksordningen 0--2,5 procent av BNP, eftersom en mycket stor del av bolagssektorns nettoöverskott motsvarar en normal avkastning på en mycket stor kapitalstock. Barkais amerikanska resultat beskriver alltså en riktning, inte en svensk nivå. Det betyder inte att den fångade basen är liten, utan att dess tyngdpunkt ligger i mark, lägesvärden och naturresursräntor snarare än i klassisk övervinst: en del av fastighetsbolagens överskott är lägesränta, som modellen ändå fångar men i markledet. Hur mycket ren övervinst som kan tas ut styrs inte av någon effektivitetsgräns, eftersom ren ränta i princip kan beskattas hårt utan att avskräcka någon investering, utan enbart av rörligheten; realistiskt handlar det om någon enstaka procent av BNP, och den rörliga delen kräver internationellt samarbete (Pillar Two).
+
+Att gränsen mellan normal avkastning och övervinst går att dra i praktiken är inte en teoretisk förhoppning: OECD:s globala minimiskatt, i kraft sedan 2024, drar den redan. Den undantar ett substansbelopp (en schablonmässig normal avkastning på lönesumma och materiella tillgångar) och lägger tilläggsskatten först på det som återstår ovanför, alltså samma snitt mellan förtjänad och oförtjänt avkastning som modellen bygger på, om än grövre draget. Att USA i januari 2026 ställde sig utanför visar samtidigt hur rörlig och politiskt känslig denna bas är.
+
+I de illustrativa scenarierna räcker markvärden, naturresursräntor och den mindre posten fångbar övervinst och koncessionsränta till att sänka dagens arbetsskatt med knappt en fjärdedel i den försiktiga läsningen och omkring en tredjedel i den generösa. Det är markvärdet, inte övervinsten, som avgör spannet. För Sverige är detta i första hand en mark- och lägesvärdesreform, kompletterad med naturresursräntor och mindre poster av koncessions- och övervinstränta; övervinstbeskattningen är principiellt viktig men empiriskt sekundär. Ordningsregeln är oberoende av exakt belopp: den första reformkronan går till lägre skatt på arbete, inte till avlastning av normal kapitalavkastning. Reformen är en sekvens: fånga ränta först, lätta arbete först, avlasta normal kapitalavkastning sist.
+
+% =====================================================================
+
+\section{Skattesystemet som helhet: före och efter}
+
+Det samlade offentliga skatteuttaget (staten, kommunerna och regionerna sammantaget) är drygt 41 procent av BNP. Grovt fördelat kommer nära sex tiondelar från skatt på arbete, drygt en fjärdedel från konsumtion (moms och punktskatter) och omkring en sjättedel från kapital och bolag, medan mark och fastighet i dag bidrar med nästan ingenting (SCB och Ekonomistyrningsverket, 2024). Men reformen kan inte beskrivas som att alla poster byts samtidigt. Då uppstår fel slutsats: om normal kapitalavkastning avlastas innan arbetet har lättats, kan reformen förstärka den automationssnedvridning den skulle ta bort.
+
+Därför måste modellen vara \emph{sekventiell}. Tabell~\ref{tab:ordning} visar reformens ordning: vilka baser som tas först och vilken skatt som sänks först.
+
+\begin{table}[h]
+\small
+\centering
+\begin{tabular}{lll}
+\hline
+\textbf{Post} & \textbf{Nuvarande roll} & \textbf{Roll i reformen} \\
+\hline
+Arbete & Huvudbas, ca 24 \% av BNP & \textbf{Sänks först}, särskilt arbetsgivaravgifter \\
+Konsumtion & Stor bas, ca 10--11 \% av BNP & Lämnas i huvudsak utanför kärnan \\
+Mark och lägesvärde & Nästan obeskattad bas & Tas först och hårdast \\
+Naturresursränta & Delvis dold/underutnyttjad & Tas som orörlig ränta \\
+Koncessionsränta & Delvis dold/underutnyttjad & Tas där staten skapat knappheten \\
+Marknadsränta/övervinst & Dold i kapitalinkomst & Tas där den kan fångas \\
+Normal kapitalavkastning & Blandad med ränta i dag & \textbf{Inte första lättnaden}; avlastas senare \\
+\hline
+\end{tabular}
+\caption{Reformens sekvens: intäkter från fångad ränta används först till att sänka skatten på arbete; normal kapitalavkastning avlastas inte i steg ett.}
+\label{tab:ordning}
+\end{table}
+
+Tabell~\ref{tab:reformutfall} visar reformens siffersatta första steg, givet ungefär samma totala skatteuttag. Den avgörande skillnaden mot en reform där normal kapitalavkastning omedelbart fredas är att kapital- och bolagsskattebasen i huvudsak lämnas på plats i steg ett. Nya eller skärpta uttag på markvärde, naturresursränta, koncessionsränta och bestående övervinst används i stället till att sänka skatten på arbete.
+
+\begin{table}[h]
+\small
+\centering
+\begin{tabular}{lccc}
+\hline
+\textbf{Skattebas (\% av BNP)} & \textbf{Nu} & \textbf{Försiktig räntebas} & \textbf{Generös räntebas} \\
+\hline
+Arbete & 23,6 & 17,9 & 15,7 \\
+Konsumtion (moms, punktskatter) & 10,6 & 10,6 & 10,6 \\
+Kapital och bolag, nuvarande uttag & 6,2 & 6,2 & 6,2 \\
+Mark-, läges- och naturresursvärden & 0,3 & 5,0 & 7,2 \\
+Fångbar övervinst + koncessionsränta & -- & 1,0 & 1,0 \\
+\hline
+Summa (avrundat) & $\sim$40,7 & $\sim$40,7 & $\sim$40,7 \\
+\hline
+\end{tabular}
+\caption{Reformutfall, intäktsneutralt, steg ett: arbete sänks först. Kapital- och bolagsskattebasen avlastas inte i detta steg; den ligger kvar medan nya ränteintäkter används för att sänka arbetsskatten. \newline Anm.: Posten \enquote{kapital och bolag} lämnas i huvudsak oförändrad i steg ett trots att den i dagens system fortfarande blandar normal avkastning och ränta. Det är ett sekvenseringsval, inte en principiell slutpunkt: arbetsskatten sänks först; uppdelningen mellan normal avkastning och ränta görs därefter, när budgetutrymme finns. Posten \enquote{fångbar övervinst och kvarvarande koncessionsränta} är satt till omkring 1 procent i båda läsningarna, eftersom svenska data visar att den är liten (se bilagans räntekalkyl och koncessionsavsnitt); det som skiljer den försiktiga från den generösa läsningen är markvärdet.}
+\label{tab:reformutfall}
+\end{table}
+
+I den försiktiga läsningen frigörs omkring 5,7 procent av BNP till lägre arbetsskatt. Arbetsbeskattningen faller då från omkring 23,6 till 17,9 procent av BNP, alltså med knappt en fjärdedel. I den generösa läsningen frigörs omkring 7,9 procent av BNP, vilket sänker arbetsbeskattningen till omkring 15,7 procent av BNP, ungefär en tredjedel lägre än dagens nivå. Reformens centrala numeriska resultat är därför inte att kapitalet lättas, utan att arbetsskatten faller med knappt en fjärdedel i den försiktiga läsningen och omkring en tredjedel i den generösa.
+
+Detta ändrar modellens kärna. Den säger inte längre: \enquote{beskatta ränta, freda normal kapitalavkastning och sänk arbete om något blir över}. Den säger: \enquote{beskatta ränta, sänk arbete först och avlasta normal kapitalavkastning först när detta inte ökar automationssnedvridningen}.
+
+Acemoglu, Manera och Restrepo (2020) ger stöd för just denna ordning. I deras uppgiftsbaserade modell är problemet inte kapitalanvändning i sig, utan att skattesystemet gör det lönsamt att flytta marginaluppgifter från arbete till kapital trots små produktivitetsvinster. De skiljer därför mellan kapitalintensitet i uppgifter där kapital har verklig komparativ fördel och automation av nya marginaluppgifter där människor fortfarande är realekonomiskt konkurrenskraftiga. En generell sänkning av skatten på utrustning och mjukvara kan därför öka just den senare typen av automation: inte mer kapital där kapital redan har tydlig komparativ fördel, utan fler uppgifter flyttade från människor till maskiner på marginalen. En sänkning av arbetsgivaravgiften verkar däremot direkt på den marginal där anställning ställs mot automation.
+
+Att reformens aggregat ser blygsamt ut i den snäva läsningen betyder därför inte att rätt slutsats är att avlasta kapital först. Tvärtom: ju knappare den fångade basen visar sig vara, desto viktigare är det att varje krona används där den biter på huvudproblemet. I första steget ska intäkten från markvärde, naturresursränta, koncessionsränta och fångbar övervinst därför gå till lägre skatt på arbete, inte till lägre skatt på automationskapital.
+
+Tabell~\ref{tab:kilen} visar samma princip på den marginella substitutionsmarginalen. Momsen avgör hur tabellen ska läsas: den ingår i \emph{utbudskilen} (valet arbeta eller inte) men inte i \emph{substitutionsmarginalen} (valet människa eller maskin). Konsumtionsskatten utgår nämligen på slutprodukten oavsett om den framställts av arbete eller av en maskin, och snedvrider därför inte valet dem emellan; drar man bort momsledet faller arbetskilen från cirka 71 till cirka 64 procent, och det är den senare siffran kilen mot automationen ska räknas ur. Eftersom vägen från BNP-andel till marginalskatt beror på hur sänkningen fördelas mellan arbetsgivaravgift, kommunal inkomstskatt och statlig inkomstskatt anges utbudskilens utfall som intervall; substitutionsmarginalen anges som punktvärden ur en proportionell sänkning av komponenterna. Det viktiga är att automationskapitalets normalavkastning inte sänks i steg ett; hela den nya intäkten används på arbetssidan.
+
+\begin{table}[h]
+\small
+\centering
+\begin{tabular}{lccc}
+\hline
+\textbf{Marginell skatt (illustrativt)} & \textbf{Nu} & \textbf{Försiktig reform} & \textbf{Generös reform} \\
+\hline
+Kvalificerat arbete: utbudskil (inkl.\ moms) & $\sim$71\,\% & $\sim$59--63\,\% & $\sim$55--59\,\% \\
+\quad substitutionsmarginal (exkl.\ moms) & $\sim$64\,\% & $\sim$51\,\% & $\sim$46\,\% \\
+Automationskapitalets normalavkastning & $\sim$10--15\,\% & $\sim$10--15\,\% & $\sim$10--15\,\% \\
+Kil människa $\leftrightarrow$ automation & $\sim$49--54 pp & $\sim$36--41 pp & $\sim$31--36 pp \\
+\hline
+\end{tabular}
+\caption{Illustrativ marginaleffekt av den sekvenserade reformen. Kilen människa$\leftrightarrow$automation räknas ur substitutionsmarginalen (exkl.\ moms), eftersom konsumtionsskatten belastar slutprodukten lika oavsett produktionssätt. Till skillnad från en reform där normal kapitalavkastning omedelbart fredas sänker denna reform inte automationsinsatsens skatt i första steget.}
+\label{tab:kilen}
+\end{table}
+
+Här ligger modellens spärr. Om intäkterna från fångad ränta används till att först avlasta normal kapitalavkastning, medan skatten på arbete bara faller marginellt, kan reformen förstärka just den snedvridning den är byggd för att undanröja. Då har reformen misslyckats med sitt eget syfte. Därför gäller: varje krona som tas från markvärde, naturresursränta, koncessionsränta och bestående övervinst ska först sänka den skatt som gör mänskligt arbete dyrt i substitutionsmarginalen, främst arbetsgivaravgiften. Därmed undviks att maskinen blir billigare innan människan blivit billigare.
+
+Normal kapitalavkastning ska alltså inte behandlas som oförtjänt ränta, men den får inte heller bli den första mottagaren av reformens lättnad. Om arbete fortfarande beskattas hårt medan automationskapital beskattas lågt är systemet fortfarande snedvridet mot arbete. Först när arbetets marginalskatt har sänkts så mycket att kilen mellan mänsklig arbetsinsats och automationsinsats inte ökar kan normal kapitalavkastning avlastas ytterligare. Det är därför kilen mellan mänskligt arbete och automation smalnar även i den försiktiga läsningen. Att detta andra steg alls nås är dock inte givet inom samma budget: när markens och övervinstens intäkt redan använts till att sänka arbetsskatten återstår inget utrymme att avlasta normalavkastningen med, om inte den bredare räntebasen (naturresurs- och koncessionsränta) tas i anspråk. Avlastningen av normal kapitalavkastning är därför en riktning och en långsiktig ambition, inte ett kostnadssatt löfte i reformens första steg; i den siffersatta versionen ligger kapital- och bolagsskatten kvar som i dag.
+
+Detta gör också modellens avståndstagande från robotskatt mer precist. En generell robotskatt är fel eftersom den träffar produktiv automation och kapitalintensitet där kapital faktiskt har komparativ fördel. Men om arbetsskatten av politiska eller fiskala skäl inte kan sänkas tillräckligt, kan en smal automationsavgift på marginaluppgifter vara en andra-bästa-lösning, uttryckligen bara som nödlösning när förstahandsvägen, att sänka arbetsskatten, är stängd, inte som modellens rekommendation. Den ska i så fall inte träffa maskiner som sådana, utan just den marginal där skattesystemet annars gör det lönsamt att ersätta människor trots små produktivitetsvinster. Att en sådan avgift klassar kapital efter användning (något modellen annars undviker eftersom det snabbt blir en robotskatt i annan form) är priset för nödlösningen, och skälet till att den är andra bästa och inte första.
+
+Kärnan är inte att kapital ska beskattas mer eller mindre i allmänhet, utan att skattesystemet först ska ta ut skatt där värdet är fångat och trögrörligt och sedan använda intäkten där den mest direkt minskar den felaktiga substitutionssignalen: på arbetskostnaden. Först därefter uppstår frågan om hur normal kapitalavkastning bör avlastas.
+
+% =====================================================================
+\section{Hur reformen kan drivas längre}
+
+Modellen är en ordningsprincip snarare än en färdig skattetabell, och den kan drivas olika långt inom samma logik: att beskatta fångat värde, inte skapat.
+
+Reformens \textbf{kärna} är hela ränteaxeln på en gång: markvärden och lägesvärden, naturresursränta (vattenkraft, mineral, skog) och koncessionsränta (frekvenser, nät, oktrojer, offentligt skapade knappheter), plus den mindre fångbara övervinsten. Dessa hör alla till modellens första led och ingår \emph{från början}. Att naturresurs- och koncessionsräntan i dag tas ut svagt betyder att kärnan är underutnyttjad, inte att den vore ett tillägg. Empiriskt är leden dock olika stora i Sverige: mark-, läges- och naturresursvärden bär huvudvikten, medan övervinst och kvarvarande koncessionsränta är mindre men principiellt viktiga kompletteringar.
+
+Hur långt reformen når \emph{inom} kärnan beror framför allt på vilken läsning av mark- och naturresursbasen som stämmer (den försiktiga eller den generösa). Därutöver kan ett mer systematiskt uttag av naturresurs- och koncessionsräntor stärka basen, men i de siffersatta scenarierna är det mark- och naturresursvärdet som driver skillnaden mellan den försiktiga och den generösa läsningen. Eftersom dessa baser till stor del är orörliga kan de i högre grad än arbete och rörlig övervinst tas utan internationellt samarbete, och den låga dödvikten bevaras eftersom varje tillagd krona fortfarande är oförtjänt värde. Det handlar om att ta ut den ränta som redan hör till kärnan mer fullständigt, inte om att lägga till nya \emph{sorters} baser.
+
+Utanför kärnan ligger en mer långtgående linje: att växla högre skatt på jungfruligt material, avfall och resursgenomströmning mot lägre skatt på reparation och arbetsintensiva tjänster. Den ligger nära i syfte men vilar på en \emph{annan} logik, att internalisera externa kostnader (Pigou) snarare än att fånga ekonomisk ränta. Den kan vara rimlig i sig, men blandas den in i kärnan förlorar argumentet sin renhet, eftersom den för in en egen mätstrid om vad den rätta materialskatten är. Den behandlas därför här som en närliggande men separat reformlinje, inte som ett tredje steg i denna modell.
+
+% =====================================================================
+\section{Vad händer med markpriserna, och var i landet?}
+
+En löpande skatt på markvärde sänker markpriset, eftersom köparen räknar in den framtida skatten och bjuder lägre. Tumregeln: priset faller ungefär med skattesatsen delad med summan av skattesats och det avkastningskrav köparen har. Med ett avkastningskrav på fyra procent sänker en årlig skatt på två procent av markvärdet markpriset omkring en tredjedel, men \textbf{bara markens del}, inte huset. Är marken halva villans värde sjunker hela priset omkring femton procent, och bara om skatten slår igenom fullt ut.
+
+Detta är en \emph{engångssänkning} av priset, inte en löpande börda. Utspridd över en infasning på tjugo år blir den ungefär 0,75 procentenheter lägre prisökning per år, mindre än vad bostadspriser normalt stiger. Priserna \emph{bromsar} alltså, de faller inte. Antaget här är en nominell prisökning på omkring fyra procent per år före reformeffekten. En bostad värd 4 miljoner i dag blir efter tjugo år värd omkring 7,6 miljoner med reformen mot 8,8 utan den, fortfarande nästan en fördubbling.
+
+Det danska exemplet (kommunreformen 2007) visade fullt genomslag på priserna, med två lärdomar: skatten snedvrider inte besluten, och hela bördan faller på den som äger \emph{när skatten aviseras}, medan framtida köpare slipper undan genom att de betalar ett lägre pris. Verkligheten ligger sannolikt någonstans mellan full och partiell kapitalisering, bland annat beroende på hyresregleringens utformning.
+
+Geografiskt är markens andel av huspriset den avgörande ratten. I storstadens dyra lägen är marken det mesta av värdet; i glesbygd, där ett hus kan säljas för mindre än det kostar att bygga, är markvärdet nära noll. Skatten träffar alltså av sig själv där lägesvärdet finns och lämnar landsbygdens hus i stort sett i fred. Och eftersom sänkningen av skatten på arbete är lika för alla i hela landet, medan markskatten är koncentrerad till de dyra lägena, går pengaflödet \textbf{från stad till land}. Modellen är därmed geografiskt utjämnande snarare än ett storstadsprojekt.
+
+% =====================================================================
+\section{Räkneexempel: olika skattebetalare}
+
+Antagande: en markskatt som drar in omkring 4 procent av BNP, växlad mot lägre skatt på arbete utan att statens samlade intäkter ändras. Siffrorna är illustrativa.
+
+\begin{description}
+\item[Hyresgästen eller den unga höginkomsttagaren i staden.] Äger ingen mark. Betalar ingen markskatt, får hela sänkningen på arbete. \emph{Tydlig vinnare.}
+\item[Barnfamiljen med villa (4 mkr, marken 45 procent av värdet) och två normala löner.] Markskatt på omkring 36\,000 kronor per år, men en samlad arbetsskattesänkning för två löntagare som ofta är större. Uppskov finns om kassan är knapp. \emph{Ungefär oförändrat till nettovinst.}
+\item[Pensionären i den dyra villan med låg inkomst.] Hög markskatt, liten sänkning på arbete. I kronor en förlorare, men med uppskov betalas inget ur den löpande pensionen; skatten regleras vid försäljning eller arv, och ingen tvingas flytta. \emph{Skyddad i vardagen, bär en framtida avräkning mot arvet.}
+\item[Den arbetande familjeskogsägaren (11--36 hektar).] Skatten ligger på markens läge och bördighet, inte på den stående skogen eller på en avverkning som håller sig inom tillväxten. Det egna arbetet och de anlitade entreprenörerna får lägre skatt. \emph{I huvudsak vinnare.}
+\item[Den frånvarande markägaren som inte brukar.] Äger skog eller mark på distans som en ren penningplacering. Här ligger priset högt över vad skogen avkastar, ett övervärde av det slag modellen vill åt. \emph{Nettobetalare.}
+\item[Storföretaget med marknadsmakt.] Övervinsten (monopol, patent, plattform) beskattas. Den del av vinsten som är normal avkastning på verkliga investeringar behandlas inte som ränta men avlastas inte heller i reformens första steg; den beskattas tills vidare som i dag. \emph{Betalar på övervinsten.}
+\item[Reparationsverkstaden mot nytillverkaren.] Reparation är arbete; nytillverkning är mer kapital- och materialintensiv. När skatten på arbete lättas förbättras reparationens relativa läge utan att modellen behöver införa en särskild materialskatt. Om en separat resursväxling senare läggs till förstärks effekten, men den hör inte till kärnmodellen. \emph{Relativ vinnare.}
+\end{description}
+
+% =====================================================================
+\section{Villkoren som måste byggas in}
+
+Växlingen fungerar bara om den paras med riktade villkor. Vart och ett svarar mot en verklig invändning:
+
+\begin{enumerate}
+\item \textbf{Uppskov.} Markskatt på den egna bostaden samlas mot huset och betalas vid försäljning eller arv, inte ur lönen.
+\item \textbf{Ingen övervältring på hyror.} Skatten får inte vandra ut i reglerade hyror; då hamnar bördan på hyresgästerna. Mekanismen är att markvärdesskatten hålls utanför hyressättningens kostnadsunderlag (den belastar ägarens orörliga tillgång, inte den löpande förvaltningen), så att en ränta på mark inte kan åberopas som en kostnad som motiverar högre hyra.
+\item \textbf{Skydd i attraktiva lägen.} Den som bor permanent där fritidshusens efterfrågan drivit upp markvärdet skiljs från andra-hem och skyddas med uppskov.
+\item \textbf{Lång infasning.} Prissänkningen sprids över femton till tjugofem år, så priserna bromsar i stället för att falla.
+\item \textbf{Nationell utjämning.} Den ojämnt fördelade markintäkten omfördelas över landet, så att service finansieras även där markvärdet är lågt.
+\item \textbf{Internationellt samarbete.} Övervinster fångas genom gemensamma golv i EU och OECD, eftersom de annars flyttar.
+\item \textbf{Tydlig värdering.} Markvärdet skiljs från husets värde i taxeringen.
+\item \textbf{Skog: skilj markens grundvärde från virkeskapitalet.}\footnote{Uthålligt brukande ska inte beskattas som ränta; däremot kan överuttag utöver tillväxten och ren markvärdestegring beskattas. Utformningen kan i praktiken bygga på fyra grepp: beskatta markens läges- och bördighetsvärde men inte den stående skogen eller en avverkning inom tillväxten; ta ut avgift först vid överavverkning; knyt uppskov till avverkningen så att skatten betalas när virket säljs; och särredovisa markens grundvärde från virkesvärdet i taxeringen.} Uthålligt brukande ska inte beskattas som ränta; överuttag och ren markvärdestegring kan däremot beskattas.
+\end{enumerate}
+
+% =====================================================================
+\section{Innovation och konkurrenskraft}
+
+En invändning kommer garanterat: att beskatta kapital skadar innovation och konkurrenskraft. I sin starkaste form lyder den att innovation belönas med en tillfällig ensamrätt (det är själva poängen med patent), så att beskatta den vinsten dövar drivkraften att innovera, och att en liten öppen ekonomi som beskattar kapital hårt driver rörliga företag och talanger utomlands.
+
+Invändningen blandar dock ihop de fyra sorters kapital som modellen håller isär, och för Sverige faller den i stora delar.
+
+De svenska kärnföretagen tjänar mest förtjänad avkastning, inte ränta. Sverige är en ekonomi av exportbolag som Ericsson, Volvo, Atlas Copco och AstraZeneca: kapitaltunga, forskningsintensiva industriföretag som konkurrerar på verklig produktivitet på världsmarknaden, under ett ständigt internationellt tryck som äter upp övervinst. Ett sådant företags vinst är till allra största delen normal avkastning på produktivt kapital och innovation, som modellen inte behandlar som ränta och inte lägger någon ny skatt på, inte den bestående ränta som modellen riktar in sig på. Att modellen inte i steg ett avlastar denna normalavkastning gör inte konkurrenskraftsargumentet svagare, vilket de följande styckena visar: exportsektorns tunga börda är det kvalificerade arbetet, inte kapitalskatten, och det är den bördan reformen lättar först. Den invändning som biter på amerikanska plattformsjättar med inhemsk marknadsmakt gäller därför i liten grad den svenska exportsektorn: där finns helt enkelt mindre ren ränta att beskatta från början. (Hela debatten om \enquote{superstjärneföretag} och marknadsmakt är i grunden en amerikansk plattformsdebatt och beskriver inte svensk exportindustri väl.)
+
+Det vänder tyngdpunkten till de två första leden, där effekten är gynnsam. För exportsektorn är det inte den rörliga övervinsten som spelar roll, utan marken och arbetet. Exportföretagens tyngsta kostnad är kvalificerat arbete: ingenjörer, forskare, tekniker. Skatten på just den arbetskraften är deras tyngsta skattebörda, och den är dessutom det som gör det dyrt att förlägga forskning och avancerad tillverkning i Sverige snarare än någon annanstans. En växling som sänker skatten på arbete och i stället tar ut den på orörliga lägesvärden träffar alltså exportsektorn där den vinner (billigare att anställa ingenjörer) och inte där den skulle förlora. Markskatten kan företagen inte fly ifrån, men de drabbas knappt av den heller, eftersom ett industriföretags värde sitter i maskiner, processer och människor, inte i markvärde.
+
+Två ärliga undantag finns, för två sorters ränta kan förekomma även hos solida exportföretag. Den ena är resursränta i de råvarunära leden: gruvbolag och skogsindustri sitter delvis på naturtillgångar, och där finns en äkta resursränta som modellen avsiktligt riktar in sig på. Den andra är patenträntan i exempelvis läkemedel, där en del av vinsten är en tidsbegränsad innovationsbelöning. Där gäller en viktig åtskillnad: skydda den ensamrätt som \emph{framkallade} innovationen under patentets livslängd, och beskatta först den ränta som \emph{består} därefter, upprätthållen av marknadsmakt snarare än av själva uppfinningen. För det stora flertalet verkstads- och industriexportörer är båda dessa små.
+
+Status quo är snarare det innovationsfientliga. Den missade hälften är vad modellen gör \emph{för} innovation. Innovation drivs framför allt av kvalificerat arbete, och dagens system beskattar den insatsvaran hårt medan det beskattar bestående ränta lätt, vilket är bakvänt om man bryr sig om innovation. Att sänka skatten på arbete gör innovationens huvudinsats billigare. Och när skattegynnad avkastning på mark och tillgångar finns att hämta dras kapital dit i stället för in i produktiv verksamhet; tar man bort den fördelen styrs kapitalet mot produktion.
+
+För en liten öppen ekonomi är effekten på de två första leden positiv: mark kan inte fly, och lägre skatt på arbete drar till sig rörlig talang. Att Sverige redan har en särskild skattelättnad för utländska experter är i sig ett tecken på att den höga skatten på arbete är det som binder konkurrenskraften, inte skatten på kapital. Den rörliga övervinsten, där en konkurrensrisk verkligen finns eftersom patent och hemvist kan flytta, hanteras i samarbete med EU och OECD, inte på egen hand, och med konkurrenspolitik vid sidan av skatten.
+
+Det svenska argumentet är därmed att modellen lättar exportsektorns tyngsta börda, skatten på kvalificerat arbete, utan att röra den konkurrensavkastning företagen lever av, och i stället flyttar bördan till baser de varken kan eller behöver fly.
+
+% =====================================================================
+\section{Diskussion: makt och demokrati}
+
+Modellen har en sida som rör inflytande och demokrati, och här går det att säga något förankrat utan att övertolka.
+
+\textbf{Den säkraste kopplingen är självförstärkande.} När ägandet samlas hos få följer politiskt inflytande, och med det regler som ytterligare gynnar den koncentrerade sidan. Samlat ägande tenderar, kort sagt, att få bättre möjligheter att påverka de regler som skyddar det samlade ägandet. Detta är en mekanism med reala kostnader: bortslösad begåvning när rörligheten är låg, och regler som fördjupar mätfelet. Att den är självförstärkande gör den till en demokratifråga; det gäller inte bara vem som äger utan vem som styr reglerna för hur värde mäts och beskattas.
+
+\textbf{Ojämlikhet som förutsägelse, inte som cirkelbevis.} Mätfelet måste stå på egna ben, via det enkla bokföringsargumentet (kapital som tillgång, arbete som kostnad), \emph{oberoende} av hur ojämnt utfallet blir. Då blir koncentrationen inte ett bevis för felet utan en \emph{förutsägelse som går att pröva}. Vi undviker därmed att använda ojämlikheten som bevis för felet och felet som orsak till ojämlikheten i en sluten cirkel.
+
+\textbf{Stad och land.} Eftersom skatten tas ut där lägesvärdet skapats och delas ut över hela landet, blir glesbygd och mindre orter i huvudsak nettovinnare. Reformen motverkar alltså den geografiska koncentration marknaden själv driver.
+
+\textbf{Små ägare mot kapitalstarka.} Villkoren sorterar grupperna efter hur deras tillgångar fungerar, inte efter en värdering av vem som förtjänar vad. Den som sitter med en svårsåld tillgång och ont om kontanter (pensionären, familjeskogsägaren) skyddas av uppskov. Den som sitter med en likvid, koncentrerad placering betalar nu. Att sorteringen sker av sig själv är vad som gör den svår att angripa som godtycklig.
+
+\textbf{Vad vi \emph{inte} kan säga lika säkert.} De bredare påståendena, att ojämlikhet i sig försämrar hälsa och tillit, är omtvistade och ligger utanför modellens kärna. De lämnas därför därhän. På samma sätt hanteras \emph{mening} i arbete inte med skatt utan med arbetsmiljöregler och institutioner; den är viktig men går inte att prissätta tillförlitligt och hålls därför utanför.
+
+\textbf{Varför formuleringen spelar roll.} Genom att göra påståendet till en fråga om \emph{vad som är sant} snarare än \emph{vad man tycker} byter man slagfält. Argumentet är inte \enquote{min värdering mot din} utan \enquote{din måttstock mäter fel, och alltid åt samma håll}. Det tvingar motparten att antingen visa att felet inte finns, eller medge det och hävda att det inte lönar sig att rätta, vilket är en svagare position. Och den som avfärdar reformen med att den fångade räntan inte framgår av räkenskaperna använder just den måttstock som står anklagad: att räntan inte särredovisas är själva felet, inte ett motargument.
+
+% =====================================================================
+\section{Ärliga begränsningar}
+
+\begin{itemize}
+\item \textbf{Engångssänkningen av markpriset} träffar dagens ägare den dag skatten aviseras. Infasning mildrar den men tar inte bort den.
+\item \textbf{Om basen räcker} är genuint omtvistat: det beror på vilken läsning av markvärdet som stämmer.
+\item \textbf{Övervinsterna är små och rörliga i Sverige.} En residualkalkyl på svenska nationalräkenskaper pekar mot att den rena marknadsmaktsräntan bara är 0--2,5 procent av BNP, lägre än den amerikanska bilden, och hur mycket som går att fånga beror på internationellt samarbete. Den fångade basens tyngdpunkt ligger därför i mark, lägesvärden och naturresursräntor, inte i klassisk övervinst.
+\item \textbf{Naturresursräntan kräver rätt konstruktion.} En ränteskatt som medger normal avkastning kan fånga knapphetsvärdet utan att slå ut marginella investeringar; en platt royalty eller för grov avgift kan däremot påverka utvinning och investeringar mer än modellen avser.
+\item \textbf{Hur mycket skatten slår igenom på priserna} varierar, bland annat med hyresregleringens utformning.
+\item \textbf{Värderingen är svår} på spridd landsbygdsmark och i gränsen mellan mark och hus, respektive mark och stående skog.
+\item \textbf{Skogens bördighet} sitter på den otydligaste delen av gränsen mellan oförtjänt värde och förtjänad avkastning: dels en naturgåva, dels ägarens långa skötsel. Det bör erkännas öppet.
+\item \textbf{En rest, ren mening, faller helt utanför priser} och hanteras med institutioner, inte skatt.
+\end{itemize}
+
+% =====================================================================
+\section{Slutsats}
+
+Programmet i en mening: \textbf{flytta skatten från det som skapar värde (arbete, kunnande och produktiva investeringar) till det som bara fångar värde andra skapat: lägesvärden, naturresurs- och koncessionsräntor samt den begränsade men principiellt viktiga del av företagens vinster som är bestående övervinst.} Hur långt reformen når avgörs av hur stor den fångade basen visar sig vara. I de illustrativa beräkningarna sänks arbetsskatten från 23,6 procent av BNP till omkring 17,9 procent i den försiktiga läsningen och omkring 15,7 procent i den generösa, innan någon avlastning av normal kapitalavkastning räknas in.
+
+Slutsatserna bör hållas isär efter hur säkra de är, så att en osäker intäktsbas inte får bära en för stark slutsats.
+
+\begin{description}
+\item[Säker.] Det är bättre att beskatta orörliga och oförtjänta värden (lägesvärde, naturresurs- och koncessionsränta, bestående övervinst) än att långsiktigt belasta arbete och normal investering. Detta står oberoende av hur stor basen är, eftersom det vilar på var dödvikten uppstår, inte på beloppen. I genomförandet sänks dock arbetsskatten först, eftersom det är där automationssnedvridningen uppstår.
+\item[Villkorad.] Modellen sänker skatten på arbete även i den försiktiga läsningen. Hur långt den kan drivas, från en betydande men begränsad sänkning till en mer genomgripande omläggning, beror på hur stor den fångade basen visar sig vara, i huvudsak en fråga om markvärdets storlek.
+\item[Osäker.] Att modellen \emph{ensam} skulle neutralisera skattesystemets automationsdrivande effekt kan inte hävdas med säkerhet: i den försiktiga läsningen minskar snedvridningen men neutraliseras inte säkert helt, som helhetsavsnittet visar.
+\end{description}
+
+Reformen bör därför förstås inte som en färdig skattetabell utan som en ordningsprincip: ta först ut skatt där värdet är oförtjänt, orörligt eller offentligt skapat; använd intäkten för att sänka den marginella kostnaden för mänskligt arbete, med början i arbetsgivaravgiften; och avlasta normal kapitalavkastning först när det inte längre förstärker automationssnedvridningen.
+
+Det osäkra är inte riktningen utan räckvidden. Modellen visar med hög säkerhet åt vilket håll skattesystemet bör flyttas: bort från arbete och produktiv investering, mot lägesvärden, naturresursräntor, koncessionsräntor och bestående övervinster. Det som återstår att fastställa empiriskt är hur långt växlingen kan drivas i Sverige innan nya snedvridningar uppstår.
+
+Positionens styrka ligger i att den inte ber någon att dela en värdering, utan bara att granska en måttstock.
+
+% =====================================================================
+\section*{Referenser}
+
+\textbf{Internationell forskning och rapporter}
+\begin{itemize}
+\item Acemoglu, D., Manera, A. och Restrepo, P. (2020), \enquote{Does the US Tax Code Favor Automation?}, \textit{Brookings Papers on Economic Activity}, våren 2020 (även NBER Working Paper 27052).
+\item Autor, D., Dorn, D., Katz, L., Patterson, C. och Van Reenen, J. (2020), \enquote{The Fall of the Labor Share and the Rise of Superstar Firms}, \textit{Quarterly Journal of Economics} 135(2).
+\item Barkai, S. (2020), \enquote{Declining Labor and Capital Shares}, \textit{Journal of Finance} 75(5).
+\item De Loecker, J., Eeckhout, J. och Unger, G. (2020), \enquote{The Rise of Market Power and the Macroeconomic Implications}, \textit{Quarterly Journal of Economics} 135(2).
+\item Dwyer, T. (2003), \enquote{The Taxable Capacity of Australian Land and Resources}, \textit{Australian Tax Forum} 18.
+\item Gaffney, M. (2009), \enquote{The Hidden Taxable Capacity of Land: Enough and to Spare}, \textit{International Journal of Social Economics} 36(4).
+\item Høj, A. K. och Jørgensen, M. R. (2018), \enquote{Land Tax Changes and Full Capitalisation}, \textit{Fiscal Studies} 39(2); arbetspappersversion Høj, Jørgensen och Schou (2017), De Økonomiske Råd.
+\item Mirrlees, J. m.fl. (2011), \textit{Tax by Design: The Mirrlees Review}, Institute for Fiscal Studies / Oxford University Press.
+\item Schwerhoff, G., Edenhofer, O. och Fleurbaey, M. (2020), \enquote{Taxation of Economic Rents}, \textit{Journal of Economic Surveys} 34(2).
+\end{itemize}
+
+\textbf{Officiell svensk statistik och data}
+\begin{itemize}
+\item SCB, \textit{Nationalräkenskaper}: sektorräkenskaper (nettodriftsöverskott B2n för icke-finansiella bolag S11, 659 mdkr 2024) och kapitalstock, NR0103 (nettostock av fast realkapital efter näringsgren, 2024).
+\item Ekonomistyrningsverket (ESV) och Ekonomifakta, skatteintäkter per slag 2024; OECD, \textit{Revenue Statistics} 2024--2025 (skatteuttag och skattekil).
+\item SCB, \textit{Fastighetstaxeringar} / Fastighetstaxeringsregistret (taxeringsvärde uppdelat på mark- och byggnadsvärde; taxeringsvärde $=$ 75 procent av marknadsvärde).
+\item Skogsstyrelsen, \textit{Fastighets- och ägarstruktur} samt \textit{Priser på skogsmark}, 2024--2025; Ludvig \& Co och Svefa, skogsmarkspriser 2024--2025.
+\end{itemize}
+
+\textbf{Reglering, skatteregler och naturresursränta}
+\begin{itemize}
+\item OECD, \textit{Global Anti-Base Erosion Model Rules (Pillar Two)}, art.\ 5.3 (substansbelopp: 5 procent av lönesumma och materiella tillgångar, övergångsvis 10/8 procent), 2024--2026.
+\item Skatteverket och regeringen (energiöverenskommelsen 2016), fastighetsskatt på vattenkraftverk sänkt 2,8 $\to$ 0,5 procent av taxeringsvärdet 2017--2020 (avstådd ränta $\sim$1,9 mdkr/år).
+\item SGU och Bergsstaten, mineralersättning enligt minerallagen: 0,2 procent av värdet, varav 0,05 procentenheter till staten.
+\item Skatteetaten (Norge), grunnrenteskatt på vattenkraft, fastställt utfall 2024 ($\sim$17 mdkr NOK); Finland, lag om gruvmineralskatt (314/2023), i kraft 2024, sats 0,6 procent (2,5 procent från 2026).
+\item Post- och telestyrelsen (PTS), genomförda spektrumauktioner 2021 ($\sim$2,3 mdkr) och 2023 ($\sim$4,2 mdkr); Energimarknadsinspektionen (Ei), beslut om elnätsföretagens intäktsramar 2024--2027 ($\sim$326 mdkr).
+\end{itemize}
+
+\vspace{1em}
+\noindent\textit{\small Anm.: Räkneexemplen är illustrativa och vilar på uttalade antaganden (markförmögenhet omkring 1,2--1,8 gånger BNP enligt fastighetstaxeringen, marken omkring 45 procent av huspriset, avkastningskrav 4 procent). De visar storleksordningar och struktur, inte en färdig konsekvensanalys.}
+
+% =====================================================================
+\section*{Bilaga: källa och härledning per siffra}
+
+Varje tal i tabellerna klassas nedan som \emph{hämtat} (avläst ur officiell statistik), \emph{härlett} (beräknat ur hämtade tal och uttalade antaganden) eller \emph{antaget} (illustrativ storleksordning). Nivåerna i procent av BNP bygger på ett samlat skatteuttag om 2\,644 miljarder kronor 2024 och en BNP i löpande priser om 6\,443 miljarder kronor (SCB, nationalräkenskaperna NR0103, BNP till marknadspris 2024).
+
+{\small
+\begin{longtable}{@{}p{2.7cm}p{1.8cm}p{9.6cm}@{}}
+\hline
+\textbf{Post} & \textbf{Typ} & \textbf{Källa och härledning} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Post} & \textbf{Typ} & \textbf{Källa och härledning} \\
+\hline
+\endhead
+\hline
+\endfoot
+Samlat uttag $\sim$41 \% & Hämtad & OECD \textit{Revenue Statistics} 2024; ESV/Ekonomifakta 2024 (2\,644 mdkr). Andel av BNP $\approx$ 41,0 \%. \\
+Arbete 23,6 \% & Hämtad/ härledd & Direkta skatter på arbete 768,5 $+$ indirekta (huvudsakligen sociala avgifter/arbetsgivaravgifter) 755,1 $=$ 1\,523,6 mdkr (Ekonomifakta/ESV 2024) $\approx$ 23,6 \% av BNP; kapitaldelen av inkomstskatten ryms inom avrundningen. \\
+Konsumtion 10,6 \% & Hämtad & Moms 562 mdkr $+$ punktskatter $\sim$125 mdkr $\approx$ 687 mdkr $\approx$ 10,6--10,8 \% av BNP (Ekonomifakta/ESV 2024). Huvudtabellen använder 10,6 för att summera mot övriga avrundade poster. \\
+Kapital och bolag 6,2 \% & Hämtad & 398,3 mdkr, varav bolagsskatt 212 och hushållens kapitalvinstskatt 87 (Ekonomifakta/ESV 2024) $\approx$ 6,2 \% av BNP. \\
+Mark/fastighet i dag 0,3 \% & Härledd/ avrundad & Löpande fastighetsskatt (kommunal fastighetsavgift $+$ statlig fastighetsskatt) $\sim$25--30 mdkr $\approx$ 0,4--0,5 \% av BNP (Skatteverket; Ekonomifakta). Den rena lägesvärdesdelen är mindre; posten avrundas i tabellen som \enquote{nästan ingenting}. \\
+Mark/natur 5,0 \% (försiktig, markandel 35 \%) & Hämtad/ härledd & Markvärde ur fastighetstaxeringen (SCB): lantbruk 1\,386 mdkr (exakt: skog, jordbruk, tomtmark) plus 35 \% av bebyggt totalt taxeringsvärde 13\,194 mdkr, dividerat med 0,75 för marknadsvärde $\to$ markförmögenhet $\sim$8\,000 mdkr ($\sim$1,2 $\times$ BNP); kapitaliserad vid $r=$4 \% $\to$ 5,0 \% av BNP. Posten omfattar mark- och lägesvärden samt marknadsprissatt naturresursränta, inte oprissatta naturvärden. \\
+Mark/natur 7,2 \% (generös, markandel 55 \%) & Hämtad/ härledd & Samma summering med markandel 55 \% för bebyggd fastighet $\to$ markförmögenhet $\sim$11\,500 mdkr ($\sim$1,8 $\times$ BNP); kapitaliserad vid $r=$4 \% $\to$ 7,2 \% av BNP. Central markandel 45 \% ger $\sim$1,52 $\times$ BNP och $\sim$6,1 \%. Källa: SCB, Fastighetstaxeringar 2023--2025. \\
+Övervinst/ koncession 1,0 \% & Härledd & Ren marknadsmaktsränta enligt svensk residualkalkyl (nedan): endast \textbf{0--2,5 \% av BNP} vid $r =$ 4--5 \%. Tabellradens 1,0 avser \emph{fångbar övervinst plus koncessionsränta} tillsammans, lika i båda läsningarna eftersom det är markvärdet som skiljer dem; tyngdpunkten ligger i mark-, läges- och naturresursvärden, inte i klassisk övervinst; koncessionsräntan är principiellt viktig men empiriskt mindre i Sverige. Källor: SCB (B2n S11 $=$ 659 mdkr; nettokapitalstock NR0103); Barkai 2020 för riktning. \\
+Utbudskil arbete $\sim$71 \% (nu) & Härledd & (kommunalskatt 32,37 \% $+$ statlig 20 \% $+$ (1$-$52,37 \%)$\times$ moms 20 \% $+$ arbetsgivaravgift 31,42 \%) $/$ (1 $+$ 31,42 \%) $\approx$ 71 \%. Satser: SCB/Ekonomifakta 2024; Lundberg 2024. \\
+Utbudskil 59--63 \% / 55--59 \% (reform) & Härledd & Samma formel med arbetsgivaravgift och marginalskatt sänkta motsvarande frigjort utrymme (5,7 resp.\ 7,9 \% av BNP). Intervallet speglar hur sänkningen fördelas mellan arbetsgivaravgift, kommunal och statlig skatt. \\
+Substitutions\-marginal $\sim$64 \% (nu); 51/46 \% (reform) & Härledd & Samma formel med momsledet uteslutet ($t_c=0$), eftersom momsen belastar slutprodukten lika oavsett produktionssätt. Kil mot automationskapitalets normalavkastning (10--15 \%): $\sim$49--54 pp nu; 36--41 resp.\ 31--36 pp efter reform. \\
+Automations\-kapitalets normalavkastning $\sim$10--15 \% & Antagen & Effektiv skatt på normal kapitalavkastning; lägre än nominell bolagsskatt (20,6 \%) på grund av avskrivningar och ränteavdrag. Oförändrad i steg ett. \\
+Pillar Two-substansbelopp & Hämtad & OECD, GloBE-modellregler art.\ 5.3: undantag 5 \% av lönesumma $+$ 5 \% av materiella tillgångar; övergångsvis 10 \%/8 \% 2024, ned till 5 \% 2033. \\
+Danmark: full kapitalisering & Hämtad & Høj \& Jørgensen, \textit{Fiscal Studies} 2018 (dansk kommunreform 2007 som exogen variation); resultatet avser danska förhållanden och överförs inte automatiskt till svenska. \\
+\end{longtable}
+}
+
+\subsection*{Känslighet för de tre bärande antagandena}
+
+Resultaten vilar tyngst på tre antaganden, och deras osäkerhet bör läsas tillsammans med talen ovan.
+
+\textbf{Markandelen av bebyggd fastighet (35--55 procent).} Sedan markförmögenheten hämtats ur fastighetstaxeringen är detta den enda kvarvarande antagandeparametern på markbasen. Den driver avståndet mellan den försiktiga läsningen (mark 5,0 procent, markandel 35 procent, $\sim$1,2 $\times$ BNP) och den generösa (7,2 procent, 55 procent, $\sim$1,8 $\times$ BNP), och därmed om arbetsskatten faller till omkring 17,9 eller 15,7 procent av BNP. Lantbrukets mark- och naturvärde är däremot exakt hämtat; osäkerheten gäller bara bostads- och lokalmarkens andel av det bebyggda taxeringsvärdet. Slutsatsens \emph{riktning} är oberoende av detta, och \emph{räckvidden} varierar inom ett smalt intervall.
+
+\textbf{Marken $\sim$45 \% av huspriset.} Styr hur stor del av bostadsbeståndets värde som är beskattningsbart lägesvärde, och därmed prisgenomslaget. Vid 35 \% blir basen och prisfallet mindre (hela villapriset faller närmare 10 \% i stället för 15 \%); vid 55 \% blir de större. Andelen varierar dessutom kraftigt geografiskt, vilket räkneexemplen redan speglar.
+
+\textbf{Avkastningskrav 4 \%.} Styr både kapitaliseringen av markräntan och prisfallsformeln. Ett lägre krav (3 \%) ger högre kapitaliserat markvärde och större prisfall; ett högre (5 \%) mindre. En procentenhets ändring rör prisfallet med storleksordningen fem procentenheter och den kapitaliserade basen i motsvarande riktning.
+
+Sammantaget: de \emph{hämtade} talen (dagens skattestruktur och markförmögenheten ur fastighetstaxeringen) är robusta; de \emph{härledda} (den kapitaliserade markräntan och den resulterande arbetssänkningen) är känsliga framför allt för markandelen av bebyggd fastighet och avkastningskravet, och bör läsas som storleksordningar inom de intervall som anges, inte som punktskattningar.
+
+\subsection*{Räntans storleksordning: en residualkalkyl för svenska förhållanden}
+
+Övervinsten är den lösaste av bilagans siffror, eftersom den inte kan avläsas utan måste konstrueras. Nedan görs konstruktionen på svenska nationalräkenskaper i stället för att lånas från Barkais amerikanska storleksordning. Metoden är densamma: den ekonomiska räntan är den del av bolagssektorns nettodriftsöverskott som återstår sedan en normal avkastning på kapitalstocken dragits av: \emph{ränta} $=$ nettodriftsöverskott (efter kapitalförslitning) $-\; r \times K$, där $K$ är nettokapitalstocken och $r$ avkastningskravet.
+
+Ingångarna avser 2024 (BNP 6\,443 miljarder kronor) och är hämtade ur SCB:s sektorräkenskaper respektive kapitalstockstabellen (NR0103):
+
+\begin{itemize}
+\item Nettodriftsöverskott (B2n), icke-finansiella bolag (S11): \textbf{659 miljarder kronor} $\approx$ 10,2 procent av BNP.
+\item Nettostock av fast realkapital, näringslivet: 16\,789 miljarder. Härifrån dras stocken av småhus (L68A, 4\,039 miljarder), vars kalkylerade driftsöverskott ligger i hushållssektorn och därför inte i S11:s överskott ovan; kommersiella fastigheter (L68B) behålls, eftersom deras överskott ingår i S11. Kvar: \textbf{$K \approx$ 12\,750 miljarder $\approx$ 2,0 gånger BNP}.
+\end{itemize}
+
+Residualen blir då:
+
+\begin{center}
+\begin{tabular}{@{}lccc@{}}
+\hline
+$r$ & Normal avkastning $r\times K$ & Ränta (residual) & \% av BNP \\
+\hline
+4 \% & 510 mdkr & 149 mdkr & $\approx$ 2,3 \% \\
+5 \% & 638 mdkr & 22 mdkr & $\approx$ 0,3 \% \\
+6 \% & 765 mdkr & $-106$ mdkr & $\approx -1{,}6$ \% \\
+\hline
+\end{tabular}
+\end{center}
+
+Slutsatsen är att \textbf{en mycket stor del av bolagssektorns nettodriftsöverskott (10,2 procent av BNP) förklaras av en normal avkastning på en mycket stor kapitalstock (omkring 2 gånger BNP). Den rena marknadsmaktsräntan är i Sverige liten, i storleksordningen 0--2,5 procent av BNP, och nära noll eller negativ redan vid ett avkastningskrav på 5 procent.} Det är väsentligt lägre än den amerikanska storleksordningen hos Barkai (2020) och bekräftar Sverige-förbehållet: en konkurrensutsatt ekonomi med stabil löneandel rymmer lite ren övervinst.
+
+Residualens känslighet ligger i metodens natur: räntan är skillnaden mellan två stora tal, så en procentenhets ändring i avkastningskravet eller ett tiotals procents ändring i kapitalstocken flyttar den flera procentenheter. Två avgränsningar bör hållas i minnet, och båda gör kalkylen \emph{konservativ}. För det första omfattar näringslivets kapitalstock mer än S11 (bland annat finanssektorn och egenföretagare, vars överskott inte ligger i S11), så $K$ är om något för stor, vilket gör den avdragna normalavkastningen för stor och residualen för liten. För det andra ingår mark inte i stocken av \emph{fast realkapital}; bolagens lägesräntor dras därför aldrig av som normal avkastning utan ligger kvar i residualen. Den rena marknadsmaktsräntan är alltså ännu mindre än tabellen visar, och just överlappet med markledet (samma lägesränta fångas via fastighetstaxeringen) är skälet att övervinstposten sätts så lågt som 1 procent. Tyngdpunkten i den fångade basen ligger därmed i mark, lägesvärden och naturresursräntor snarare än i klassisk marknadsmaktsövervinst.
+
+\subsection*{Koncessionsräntan i Sverige}
+
+Koncessionsräntan (värdet av en offentligt skapad knapphet) redovisas inte som en samlad post och måste sättas ihop av bitar från reglerade sektorer. De två största och mest mätbara talar samma språk som övervinsten: posten är liten och redan till stor del fångad.
+
+\textbf{Spektrum (frekvenstillstånd).} PTS auktioner har gett engångslikvider i storleksordning 2,3 miljarder kronor (2021, 5G) och 4,2 miljarder (2023). Det är likvider vart tredje till femte år, inte ett årligt flöde; annualiserat rör det sig om omkring en miljard kronor per år, eller cirka 0,015 procent av BNP. Framför allt fångar staten redan värdet \emph{genom auktionen}, precis den mekanism modellen förordar, så någon nämnvärd ofångad spektrumränta finns inte.
+
+\textbf{Elnät.} Energimarknadsinspektionens intäktsram för elnätet 2024--2027 uppgår till omkring 326 miljarder kronor, alltså i storleksordning 80 miljarder per år. Men det beloppet är till helt övervägande del kostnadstäckning och en \emph{normal} avkastning (real kalkylränta omkring 4,5 procent) på en stor anläggningsstock; normal avkastning på nätets ledningar är i modellens mening led 2, inte ränta. Den rena koncessionsräntan är bara överavkastningen utöver den normala, och regleringen är själva det instrument som håller den nere. Den delen är storleksordning några miljarder per år, eller ungefär 0,05 procent av BNP. Övriga koncessioner (Systembolaget, spellicenser, bankoktrojer) är små och fångas redan via statligt ägande respektive punkt- och spelskatt.
+
+\textbf{Slutsats.} Ofångad koncessionsränta i Sverige är storleksordning \textbf{0,1--0,3 procent av BNP}. Det stärker samma bild som räntekalkylen: ren marknadsmaktsövervinst är liten och rörlig, medan kvarvarande koncessionsränta är liten därför att mycket redan fångas genom auktion, reglering, statligt ägande eller särskild skatt. Det orörliga mark-, läges- och naturresursledet, som kan tas ut utan internationellt samarbete, är därför det som bär reformen. Kompositionstabellernas rad för fångbar övervinst och kvarvarande koncessionsränta sätts till omkring 1 procent av BNP i båda läsningarna. Det ska inte läsas som att koncessionsräntan ensam uppgår till 1 procent; den rena ofångade koncessionsräntan är snarare 0,1--0,3 procent, medan resten av raden utgör försiktigt fångbar marknadsmaktsränta.
+
+\subsection*{Underlag: marginalkilens reformkolumner}
+
+Marginalkilen i tabell~\ref{tab:kilen} beräknas ur den formel som anges ovan: (kommunalskatt $+$ statlig skatt $+$ momseffekt på det som återstår $+$ arbetsgivaravgift) delat med (1 $+$ arbetsgivaravgift). Med kommunalskatt 32,37, statlig 20, momseffekt 20 och arbetsgivaravgift 31,42 procent ger utgångsläget cirka 71 procent, \emph{utbudskilen} som styr valet att arbeta eller inte. Utesluter man momsledet ($t_c=0$) ger samma formel cirka 64 procent; det är \emph{substitutionsmarginalen}, relevant för valet människa/maskin, eftersom momsen belastar slutprodukten lika oavsett produktionssätt. Reformkolumnerna blir då cirka 51 (försiktig) och 46 procent (generös), och kilen mot automationskapitalets normalavkastning (10--15 procent) cirka 49--54 pp i utgångsläget, 36--41 respektive 31--36 pp efter reform. Den del av arbetsgivaravgiften som är förmånsanknuten (bland annat allmän pension) är i marginalen ingen ren skatt, så kilen är en \emph{övre} gräns: den är som renast över intjänandetaken, där hela avgiften är skatt, vilket är just det spann av kvalificerade löner reformen framför allt riktar sig mot.
+
+Reformkolumnerna erhålls genom att sänka arbetsskattens komponenter (arbetsgivaravgift, kommunal och statlig marginalskatt) i proportion till den andel av arbetsskatten som frigörs, knappt en fjärdedel i den försiktiga läsningen (5,7 av 23,6 procent av BNP) och omkring en tredjedel i den generösa (7,9 av 23,6), medan momsen hålls oförändrad. En sänkning av komponenterna med 25 procent ger en kil på cirka 61 procent; en sänkning med en tredjedel ger cirka 57 procent. Intervallen $\sim$59--63 respektive $\sim$55--59 procent speglar hur sänkningen fördelas mellan arbetsgivaravgift (som påverkar både täljare och nämnare) och marginalskatt (som bara påverkar täljaren). Talen är illustrativa och avser storleksordning, inte en exakt fördelningsprofil.
+
+\subsection*{Underlag: markförmögenheten ur fastighetstaxeringen}
+
+Markbasen är hämtad ur SCB:s fastighetstaxering, inte antagen. Taxeringsvärdet motsvarar 75 procent av marknadsvärdet, så en summering av markvärdet dividerat med 0,75 ger markförmögenheten i marknadsvärde.
+
+Lantbrukets mark- och naturvärde kan tas exakt ur delvärdestabellen: produktiv skogsmark, skogsimpediment, jordbruks- och tomtmarksvärde summerar till 1\,386 miljarder kronor (taxeringsvärde, 2023). För bebyggda enheter (småhus 6\,717 och hyreshus/industri 6\,477, tillsammans 13\,194 miljarder i totalt taxeringsvärde, 2024--2025) redovisar SCB inte mark- och byggnadsvärde separat, så markandelen av den bebyggda delen är den enda kvarvarande antagandeparametern. Med markandel 35--55 procent blir den samlade markförmögenheten:
+
+\begin{itemize}
+\item 35 procent: $(1\,386 + 0{,}35 \times 13\,194)/0{,}75 \approx 8\,000$ mdkr $\approx$ 1,24 gånger BNP;
+\item 45 procent (central): $\approx 9\,800$ mdkr $\approx$ 1,52 gånger BNP;
+\item 55 procent: $\approx 11\,500$ mdkr $\approx$ 1,79 gånger BNP.
+\end{itemize}
+
+Kapitaliserad vid avkastningskrav 4 procent ger det en årlig markränta på 5,0--7,2 procent av BNP (central 6,1). Det är lägre än de två gånger BNP som ibland antas i debatten (vilket hade gett 9--13 procent) och drar reformens räckvidd åt det försiktiga hållet: arbetsskatten faller med knappt en fjärdedel till omkring en tredjedel, inte upp mot hälften.
+
+Två förbehåll bör hållas i minnet. Specialenheter är skattebefriade och saknar taxeringsvärde, så offentlig mark och infrastruktur faller utanför: basen är ägbar, taxerad mark, inte allt lägesvärde i landet. Och de olika fastighetstyperna har olika basår (lantbruk 2023, småhus 2024, hyreshus och industri 2025). Vattenkraftens och mineralens ekonomiska ränta vid dagens priser kan dessutom ligga något över taxeringsvärdet, vilket ger en blygsam uppsida på naturresurssidan.
+\end{document}

@@ -1,0 +1,44 @@
+# === LaTeX (pdflatex, tvåpass) ===
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.dvi
+*.xdv
+*-converted-to.*
+
+# PDF:en är en byggartefakt. Avkommentera raden nedan om du INTE vill
+# versionshantera den. Många behåller den så att en läsare slipper kompilera;
+# vill du det, låt raden vara kommenterad och kör `git add skatt-pa-ranta.pdf`.
+# *.pdf
+
+# === Python (analyspaketet) ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Analysens genererade utdata (run_analysis.py skriver hit):
+resultat/
+
+# === Data ===
+# Fullständiga SCB-nedladdningar (~165 MB, en fil >100 MB) läggs i analys/raw/
+# och hålls utanför repot. De slimmade extrakten i analys/data/ versionshanteras
+# och gör pipelinen körbar direkt efter klon; extract.py återskapar dem ur raw/.
+analys/raw/
+
+# === OS/redigerare ===
+.DS_Store
+*~
+.vscode/
