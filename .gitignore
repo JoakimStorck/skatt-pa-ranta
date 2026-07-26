@@ -38,6 +38,9 @@ resultat/
 # och gör pipelinen körbar direkt efter klon; extract.py återskapar dem ur raw/.
 analys/raw/
 
+# === LaTeX-artefakter ===
+build/
+
 # === OS/redigerare ===
 .DS_Store
 *~
